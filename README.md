@@ -1,1 +1,1 @@
-#generate readme.md for 
+#generate readme.md for a python dsa repository
