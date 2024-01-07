@@ -1,6 +1,5 @@
 @echo off
 
-
 rem Specify the path to the directory you want to open
 set DirectoryPath="D:\Development\PYTHON\DSA Python - Coding Ninja"
 
