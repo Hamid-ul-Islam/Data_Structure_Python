@@ -7,4 +7,4 @@ rem Change to the directory
 cd /d %DirectoryPath%
 
 rem Open Visual Studio Code in the current directory and start it in a new window
-start code .
+code .
