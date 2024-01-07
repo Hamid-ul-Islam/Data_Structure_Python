@@ -1,3 +1,2 @@
 @echo off
-@start "" code .
-exit
+@start code .
