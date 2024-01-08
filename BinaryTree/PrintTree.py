@@ -10,9 +10,6 @@ def printTree(root):
   printTree(root.left)
   printTree(root.right)
 
-#print tree function call -> 5, 10, 20
-printTree(rootNode)
-
 
 #print tree in details
 def printTreeDetailed(root):
