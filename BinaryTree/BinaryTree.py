@@ -52,4 +52,4 @@ def treeInput():
   data = int(input())
   #base case
   if(data == -1):
-    return None #
+    return None #-1 means 
