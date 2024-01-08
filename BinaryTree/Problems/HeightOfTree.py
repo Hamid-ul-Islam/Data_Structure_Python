@@ -19,3 +19,4 @@ def heightOfTree(root):
     leftHeight = heightOfTree(root.left)
     rightHeight = heightOfTree(root.right)
     
+    
