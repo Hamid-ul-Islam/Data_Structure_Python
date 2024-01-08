@@ -55,6 +55,5 @@ def treeInputUseful(n):
     if data == -1:
         return None
     root = TreeNode(data)
-    leftNode = l
-treeInputUseful()    
+    leftNode = treeInputUseful()    
     
