@@ -6,3 +6,4 @@ node3 = TreeNode(3)
 
 root.left = node2
 root.right = node3
+
