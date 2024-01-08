@@ -23,4 +23,4 @@ def printTree(root):
  printTree(root.left)
  printTree(root.right)
 
-printTree()
+printTree(rootNode)
