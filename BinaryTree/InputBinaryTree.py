@@ -1,7 +1,7 @@
 from BinaryTree import TreeNode
 
 #taking input recursively for binary tree
-def treeInput():
+def treeInput(TreeNode):
   data = int(input())
   #base case
   if(data == -1):
