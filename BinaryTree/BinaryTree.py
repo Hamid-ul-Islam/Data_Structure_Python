@@ -62,4 +62,4 @@ def treeInputUseful(n):
     root.right = rightNode
     
     return root    
-    
+
