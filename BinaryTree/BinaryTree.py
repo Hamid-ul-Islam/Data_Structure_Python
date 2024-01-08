@@ -63,4 +63,4 @@ def treeInput():
   rootNode.left = leftNode
   rootNode.right = rightNode
   
-  return rootNode 
+  return rootNode #it will return the firs most 
