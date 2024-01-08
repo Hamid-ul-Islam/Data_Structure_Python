@@ -31,4 +31,5 @@ printTree(rootNode)
 def printTreeDetailed(root):
   if root == None:
     return
-    print(root.data, end=": ")
+  
+  print(root.data, end=": ")
