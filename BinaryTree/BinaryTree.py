@@ -17,6 +17,7 @@ node3 = TreeNode(20)
 rootNode.left = node2
 rootNode.right = node3
 
+printTree(rootNode)
 
 #taking input recursively for creating binary tree nodes
 def treeInput():
@@ -37,4 +38,3 @@ def treeInput():
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
 
 #taking input and printing
-printTree(rootNode)
