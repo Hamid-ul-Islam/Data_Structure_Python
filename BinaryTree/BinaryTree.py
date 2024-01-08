@@ -59,6 +59,6 @@ def treeInput():
   leftNode = TreeNode(treeInput())
   rightNode = TreeNode(treeInput())
   
-  #
+  #linked
   
   return rootNode
