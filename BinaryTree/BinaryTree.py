@@ -52,17 +52,14 @@ def treeInputList(lst, index=0):
     return None
   
   rootNode = TreeNode(lst[index])
-  leftNode = treeInputList(lst, index + 1)
-  rightNode = treeInputList(lst, index + 2)
-  
-  if leftNode is not None or rightNode is not None:
-    rootNode.left = leftNode
-    rootNode.right = rightNode
+  rootNode.left = buildTree(lst, index + 1)
+  # Check if subsequent elements exist for right child before assigning
+  if index + 2 < len(lst) and lst[index + 2] != -1:
+    rootNode.right = buildTree(lst, index + 2)
   
   return rootNode
 
-
-
+# Example usage
 values = [int(ele) for ele in input().split()]
-rootNode = treeInputList(values)
+rootNode = buildTree(values)
 printTree(rootNode)
