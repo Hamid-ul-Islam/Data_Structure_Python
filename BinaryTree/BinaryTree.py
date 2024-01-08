@@ -40,5 +40,5 @@ def treeInput():
   
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
 
-#taking input and printing 
+#taking input and printing (detailed)
 printTreeDetailed(treeInput())
