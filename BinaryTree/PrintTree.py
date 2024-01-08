@@ -1,6 +1,6 @@
 from BinaryTree import TreeNode
 
-#printing binary tree with recursion
+#simple printing binary tree with recursion
 def printTree(root):
   #base case
   if root is not None:
