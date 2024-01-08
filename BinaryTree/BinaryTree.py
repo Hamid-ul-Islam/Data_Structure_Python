@@ -23,5 +23,5 @@ def printTree(root):
  printTree(root.left)
  printTree(root.right)
 
-#print tree function call
+#print tree function call -> 5
 printTree(rootNode)
