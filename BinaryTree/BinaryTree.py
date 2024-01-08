@@ -56,3 +56,4 @@ def treeInput():
   
   rootNode = TreeNode(data)
   leftNode = TreeNode(treeInput())
+  rightNode = 
