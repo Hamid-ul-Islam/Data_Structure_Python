@@ -51,6 +51,7 @@ length = len(values)
 def treeInputUseful(n):
     if(n == length):
         return
+    data = 
     if data == -1:
         return None
     root = TreeNode(data)
