@@ -21,4 +21,4 @@ def numOfNodes(root):
     
     return leftNodeCount + rightNodeCount + 1 #adding +1 for every return
 
-
+print(numOfNodes(root))
