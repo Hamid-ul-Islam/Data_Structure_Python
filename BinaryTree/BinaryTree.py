@@ -28,4 +28,4 @@ printTree(rootNode)
 
 
 #print tree in details
-def pr
+def printTreeDetailed()
