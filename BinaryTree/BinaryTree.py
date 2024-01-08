@@ -54,5 +54,5 @@ def treeInput():
   if(data == -1):
     return None #-1 means the node would be None and parent node will be linked to None as their left or right node
   
-  createNode = TreeNode(data)
-  
+  rootNode = TreeNode(data)
+  le
