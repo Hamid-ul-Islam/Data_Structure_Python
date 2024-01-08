@@ -1,7 +1,7 @@
 #simple printing binary tree with recursion
 def printTree(root):
   #base case
-  if root is not None:
+  if root !-= None:
     print(root.data)
   else:
     return
