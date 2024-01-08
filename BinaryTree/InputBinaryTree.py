@@ -1,2 +1,3 @@
 from BinaryTree import TreeNode
-root = 
+root = TreeNode(10)
+print
