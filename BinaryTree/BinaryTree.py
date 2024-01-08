@@ -21,4 +21,4 @@ rootNode.right = node3
 
 # printTree(rootNode)
 
-printTreetreeInput(TreeNode)
+printTree(treeInput(TreeNode))
