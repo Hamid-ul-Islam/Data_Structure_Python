@@ -46,7 +46,7 @@ printTreeDetailed(treeInput())
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
 num_nodes = int(input("Enter the number of Nodes: "))
-def treeInputUseful():
-    values = [int(input("Enter value: ")) for i in range(num_nodes)]
     length = len(values)
+def treeInputUseful(n):
+    values = [int(input("Enter value: ")) for i in range(num_nodes)]
     
