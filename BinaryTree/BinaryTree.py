@@ -46,5 +46,5 @@ printTreeDetailed(treeInput())
 
 #taking input with list comprehension [5 3 -1 -1 4 -1 -1]
 def treeInputUseful():
-    num_elements = int(input("Enter the number of elements: "))
+    num_elements = int(input("Enter the number of Nodes: "))
     my_list = [int(input(f"Enter element {i + 1}: ")) for i in range(num_elements)]
