@@ -25,6 +25,3 @@ def printTreeDetailed(root):
   
   printTreeDetailed(root.left)
   printTreeDetailed(root.right)
-
-#call detailed print
-printTreeDetailed(rootNode)
