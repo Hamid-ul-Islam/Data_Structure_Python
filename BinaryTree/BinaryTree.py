@@ -1,6 +1,6 @@
 #importing printing and taking input functions
 from PrintTree import printTree, printTreeDetailed
-from InputBinaryTree import 
+from InputBinaryTree import treeInput
 
 #binary tree node class
 class TreeNode:
