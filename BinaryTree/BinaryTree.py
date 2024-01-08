@@ -17,7 +17,7 @@ node3 = TreeNode(20)
 rootNode.left = node2
 rootNode.right = node3
 
-#print s above created tree 
+#print above created tree 
 printTree(rootNode)
 
 
