@@ -61,5 +61,5 @@ def treeInputUseful(n):
     root.left = leftNode
     root.right = rightNode
     
-    return    
+    return root    
     
