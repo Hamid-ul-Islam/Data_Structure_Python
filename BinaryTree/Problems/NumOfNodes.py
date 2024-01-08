@@ -14,4 +14,5 @@ root.right = node3
 
 def numOfNodes(root):
     if root is None:
-        
+        return 0
+    
