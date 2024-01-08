@@ -9,6 +9,7 @@ class TreeNode:
 rootNode = TreeNode(10)
 node2 = TreeNode(5)
 node3 = TreeNode(3)
+node4 = 
 
 rootNode.left = node2
 rootNode.right = node3
