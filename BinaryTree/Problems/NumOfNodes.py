@@ -1,7 +1,9 @@
 class TreeNode:
     __init__(self, data):
         self.data = data
-        self.
+        self.left = None
+        self.right = None
+        
 
 root = TreeNode(10)
 node2 = TreeNode(5)
