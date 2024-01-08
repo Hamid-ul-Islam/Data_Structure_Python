@@ -18,4 +18,5 @@ rootNode.right = node3
 def printTree(root):
  if root is not None:
   print(root.data)
-  
+ else:
+  return
