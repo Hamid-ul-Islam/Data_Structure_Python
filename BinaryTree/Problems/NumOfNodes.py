@@ -18,4 +18,4 @@ def numOfNodes(root):
     leftNodeCount = numOfNodes(root.left)
     rightNodeCount = numOfNodes(root.right)
     
-    return 
+    return leftNodeCount + rightNodeCount + 1
