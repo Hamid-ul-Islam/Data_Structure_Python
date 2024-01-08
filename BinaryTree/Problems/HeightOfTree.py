@@ -13,7 +13,7 @@ node3 = TreeNode(3)
 rootNode.left = node2
 rootNode.right = node3
 
-#logic: lastNode will return 0 and 0 from 
+#logic: lastNode will return 0 and 0 from left and right 
 def heightOfTree(root):
     if root is None:
         return 0
