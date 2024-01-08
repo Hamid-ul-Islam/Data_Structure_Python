@@ -20,8 +20,8 @@ def printTree(root):
     print(root.data)
   else:
     return
- printTree(root.left)
- printTree(root.right)
+  printTree(root.left)
+  printTree(root.right)
 
 #print tree function call -> 5, 10, 20
 printTree(rootNode)
