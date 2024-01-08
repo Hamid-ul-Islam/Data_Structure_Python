@@ -13,4 +13,4 @@ node3 = TreeNode(3)
 rootNode.left = node2
 rootNode.right = node3
 
-def nu
+def numOfLeafNodes(roo)
