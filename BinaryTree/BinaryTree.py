@@ -61,5 +61,5 @@ def treeInputList(lst, index=0):
 
 # Example usage
 values = [int(ele) for ele in input().split()]
-rootNode = buildTree(values)
+rootNode = tre(values)
 printTree(rootNode)
