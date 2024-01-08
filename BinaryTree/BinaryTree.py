@@ -13,3 +13,4 @@ node3 = TreeNode(20)
 #linking node with each other
 rootNode.left = node2
 rootNode.right = node3
+
