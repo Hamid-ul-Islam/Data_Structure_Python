@@ -10,4 +10,4 @@ rootNode = TreeNode(5)
 node2 = TreeNode(10)
 node3 = TreeNode(20)
 
-#linking node
+#linking node with each other
