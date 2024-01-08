@@ -63,4 +63,4 @@ def treeInputUseful(n):
     
     return root    
 
-printTree(treeInput)
+printTree(treeInputUseful)
