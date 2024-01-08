@@ -21,3 +21,4 @@ rootNode.right = node3
 
 printTree(rootNode)
 
+treeInput()
