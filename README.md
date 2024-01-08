@@ -8,7 +8,7 @@ Welcome to the Data_Structure_Python repository! This repository serves as a com
 2. [Folder Structure](#folder-structure)
 3. [Usage](#usage)
 4. [Contributing](#contributing)
-6. [License](#license)
+5. [License](#license)
 
 ## Introduction
 
