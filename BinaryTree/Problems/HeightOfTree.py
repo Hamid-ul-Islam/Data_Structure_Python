@@ -19,5 +19,5 @@ def heightOfTree(root):
     leftHeight = heightOfTree(root.left)
     rightHeight = heightOfTree(root.right)
     
-    return max(leftHeight, )
+    return max(leftHeight, rightHeight) + 1
     
