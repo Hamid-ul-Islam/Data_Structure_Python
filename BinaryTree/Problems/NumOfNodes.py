@@ -5,7 +5,7 @@ class TreeNode:
        self.right = None
         
 
-root = TreeNode(10)
+rootNode = TreeNode(10)
 node2 = TreeNode(5)
 node3 = TreeNode(3)
 
