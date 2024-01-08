@@ -27,16 +27,6 @@ The repository is organized into folders, each representing a specific data stru
 - [Queue](Queue/)
 - [Heap](Heap/)
 
-Each folder contains the implementation of the respective data structure. You can find the Python files within each folder, and the file paths are structured as follows:
-
-- `BinaryTree`: [BinarySearchTree.py](BinaryTree/BinarySearchTree.py)
-- `Graph`: [Graph.py](Graph/Graph.py)
-- `HashTable`: [HashTable.py](HashTable/HashTable.py)
-- `LinkedList`: [LinkedList.py](LinkedList/LinkedList.py)
-- `Stack`: [Stack.py](Stack/Stack.py)
-- `Queue`: [Queue.py](Queue/Queue.py)
-- `Heap`: [Heap.py](Heap/Heap.py)
-
 The detailed explanations and comments within each Python file facilitate easy comprehension.
 
 ## Usage
