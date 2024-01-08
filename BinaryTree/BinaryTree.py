@@ -44,4 +44,4 @@ def treeInput():
 printTreeDetailed(treeInput())
 
 
-#taking input with list comprehension 5 3 -1 -1 4 -1 -1
+#taking input with list comprehension [5 3 -1 -1 4 -1 -1]
