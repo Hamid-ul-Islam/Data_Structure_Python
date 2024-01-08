@@ -14,9 +14,10 @@ node3 = TreeNode(20)
 rootNode.left = node2
 rootNode.right = node3
 
-#printing binary tree
+#printing binary tree with recursion
 def printTree(root):
  if root is not None:
   print(root.data)
  else:
   return
+ 
