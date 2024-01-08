@@ -60,6 +60,6 @@ def treeInput():
   rightNode = TreeNode(treeInput())
   
   #linking created node with each
-  roo
+  rootNode.left = lef
   
   return rootNode
