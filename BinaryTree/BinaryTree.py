@@ -42,12 +42,7 @@ def treeInput():
 
 #taking input and printing
 # printTreeDetailed(treeInput())
-def printTreeDetaileds(rootNode, level=0, prefix="Root: "):
-    if rootNode is not None:
-        print(" " * (level * 4) + prefix + str(rootNode.data))
-        if rootNode.left is not None or rootNode.right is not None:
-            printTreeDetaileds(rootNode.left, level + 1, "L--- ")
-            printTreeDetaileds(rootNode.right, level + 1, "R--- ")
+
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
 def treeInputList(lst, index=0):
@@ -65,4 +60,4 @@ def treeInputList(lst, index=0):
 
 
 values = [int(ele) for ele in input().split()]
-printTreeDetaileds(treeInputList(values))
+printTree(treeInputList(values))
