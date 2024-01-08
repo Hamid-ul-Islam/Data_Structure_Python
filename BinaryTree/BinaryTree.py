@@ -1,4 +1,4 @@
-#importing printing functions
+#import printing functions
 from PrintTree import printTree, printTreeDetailed
 
 #binary tree node class
