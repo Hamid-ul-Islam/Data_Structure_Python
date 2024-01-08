@@ -40,4 +40,4 @@ def printTreeDetailed(root):
   print("") #for new line after one node (with left and right node) is printed
   
 #call detailed print
-prin
+printTreeDetailed(rootNode)
