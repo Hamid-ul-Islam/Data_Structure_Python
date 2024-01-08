@@ -19,4 +19,4 @@ rootNode.left = node2
 rootNode.right = node3
 
 
-printTree()
+printTree(rootNode)
