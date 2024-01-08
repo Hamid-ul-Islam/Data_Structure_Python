@@ -20,3 +20,4 @@ def largestData(root):
     rightLarge = largestData(root.right)
     largest = max(leftLarge, rightLarge, root.data)
     
+print(largestData(rootNode))
