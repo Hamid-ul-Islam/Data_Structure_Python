@@ -20,5 +20,3 @@ rootNode.right = node3
 
 
 # printTree(rootNode)
-
-printTree(treeInput(TreeNode=TreeNode))
