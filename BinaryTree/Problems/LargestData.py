@@ -16,7 +16,7 @@ rootNode.right = node3
 def largestData(root):
     if root is None:
         return -1
-    leftLarge = largestData(root.left) #this is continuously call left side and start executing "largest = max(leftLarge, rightLarge, root.data)" this line by skipping "rightLarge = largestData(root.right)" and continue 
+    leftLarge = largestData(root.left) #this is continuously call left side and start executing "largest = max(leftLarge, rightLarge, root.data)" this line by skipping "rightLarge = largestData(root.right)" and continue returning largest
     rightLarge = largestData(root.right)
     largest = max(leftLarge, rightLarge, root.data)
     return largest
