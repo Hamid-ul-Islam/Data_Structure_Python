@@ -60,4 +60,5 @@ def treeInputList(lst, index=0):
 
 
 values = [int(ele) for ele in input().split()]
-printTree(treeInputList(values))
+rootNode = treeInputList(values)
+printTree(rootNode)
