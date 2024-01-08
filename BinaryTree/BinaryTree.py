@@ -38,3 +38,5 @@ def printTreeDetailed(root):
   print("L->",root.left.data)
   print("R->", root.right.data)
   print("") #for new line after one node (with left and right node) is printed
+  
+#call 
