@@ -36,6 +36,7 @@ def printTreeDetailed(root):
   if root.right.data is not None:
     print("R->", root.right.data)
   print(root.data)
+  if root.
   print("L->",root.left.data)
   print("") #for new line after one node (with left and right node) is printed
   
