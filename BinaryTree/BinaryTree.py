@@ -49,7 +49,7 @@ values = [int(ele) for ele in input().split()]
 length = len(values)
 
 def treeInputUseful(n):
-    if(n <= length):
+    if(n == length):
         return
     data = values[n]
     if data == -1:
