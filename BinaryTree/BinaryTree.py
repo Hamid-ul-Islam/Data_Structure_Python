@@ -1,4 +1,4 @@
-#importing printing and taking input functions
+#importing printing and taking input function
 from PrintTree import printTree, printTreeDetailed
 
 #binary tree node class
