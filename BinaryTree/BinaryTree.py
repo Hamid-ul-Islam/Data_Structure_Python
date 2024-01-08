@@ -20,4 +20,4 @@ def printTree(root):
   print(root.data)
  else:
   return
- 
+ printTree
