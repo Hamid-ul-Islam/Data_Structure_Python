@@ -33,4 +33,4 @@ def printTreeDetailed(root):
     print(root.data)
   else:
     return
-  
+  print()
