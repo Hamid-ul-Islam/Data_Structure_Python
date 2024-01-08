@@ -50,5 +50,6 @@ printTreeDetailed(rootNode)
 #taking input for binary tree
 def treeInput():
   data = int(input())
+  
   if(data == -1):
-    return
+    return None
