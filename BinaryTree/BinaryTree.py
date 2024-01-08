@@ -44,4 +44,4 @@ def treeInput():
 printTreeDetailed(treeInput())
 
 
-#taking input wi
+#taking input with list comprehension
