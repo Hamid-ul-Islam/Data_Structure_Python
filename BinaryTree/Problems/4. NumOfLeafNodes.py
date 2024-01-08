@@ -17,4 +17,5 @@ def numOfLeafNodes(root):
     if root is None:
         return 1
     leafNodeOnLeft = numOfLeafNodes(root.left)
-    leaf
+    
+    leafNodeOnRight = numOfLeafNodes(root.right)
