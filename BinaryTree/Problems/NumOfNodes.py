@@ -1,4 +1,4 @@
 from BinaryTree.BinaryTree import TreeNode
 
 root = TreeNode(10)
-left = 
+node2 = TreeNode
