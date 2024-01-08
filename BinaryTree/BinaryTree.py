@@ -52,5 +52,5 @@ def treeInputUseful(n):
     data = values[n]
     if n > num_nodes:
         return
-    if 
+    if data 
     
