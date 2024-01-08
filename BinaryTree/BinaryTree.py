@@ -34,7 +34,6 @@ def printTreeDetailed(root):
   if root == None:
     return
   if root.right.data is not None:
-    
     print("R->", root.right.data)
   print(root.data)
   print("L->",root.left.data)
