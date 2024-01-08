@@ -52,10 +52,10 @@ def treeInputList(lst, index=0):
     return None
   
   rootNode = TreeNode(lst[index])
-  rootNode.left = buildTree(lst, index + 1)
+  rootNode.left = treeInputList(lst, index + 1)
   # Check if subsequent elements exist for right child before assigning
   if index + 2 < len(lst) and lst[index + 2] != -1:
-    rootNode.right = buildTree(lst, index + 2)
+    rootNode.right = treeInputList(lst, index + 2)
   
   return rootNode
 
