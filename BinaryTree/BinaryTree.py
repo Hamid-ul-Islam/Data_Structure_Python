@@ -39,7 +39,7 @@ def printTreeDetailed(root):
   print("L->",root.left.data)
   print("") #for new line after one node (with left and right node) is printed
   
-  
+  printTreeDetailed(root.left)
 #call detailed print
 printTreeDetailed(rootNode)
 
