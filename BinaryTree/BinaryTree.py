@@ -30,7 +30,6 @@ printTree(rootNode)
 #print tree in details
 def printTreeDetailed(root):
   if root is not None:
-    print(root.data)
+    print(root.data, end="")
   else:
     return
-  print()
