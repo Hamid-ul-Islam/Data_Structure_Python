@@ -14,6 +14,7 @@ node5 = TreeNode(20)
 
 rootNode.left = node2
 rootNode.right = node3
+node2.
 
 def numOfLeafNodes(root):
     if root is None:
