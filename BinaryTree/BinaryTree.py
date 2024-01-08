@@ -46,7 +46,8 @@ def treeInput():
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
 def treeInputList(lst, index=0):
-    if index >= len(lst) or 
+    if index >= len(lst):
+        return
     if lst[index] == -1:
         return None
     
