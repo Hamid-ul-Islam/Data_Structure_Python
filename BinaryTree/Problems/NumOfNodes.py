@@ -1,6 +1,6 @@
 import sys
 sys.path.append('../')
-from '../BinaryTree.py' import TreeNode
+
 
 root = TreeNode(10)
 node2 = TreeNode(5)
