@@ -13,7 +13,7 @@ node3 = TreeNode(3)
 rootNode.left = node2
 rootNode.right = node3
 
-#logic: last most node will return -1 
+#logic: last most left and right node will return -1 
 def largestData(root):
     if root is None:
         return -1
