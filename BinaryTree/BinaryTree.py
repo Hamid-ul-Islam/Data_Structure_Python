@@ -19,6 +19,6 @@ rootNode.left = node2
 rootNode.right = node3
 
 
-printTree(rootNode)
+# printTree(rootNode)
 
 treeInput(TreeNode)
