@@ -21,3 +21,6 @@ def printTree(root):
  else:
   return
  printTree(root.left)
+ printTree(root.right)
+
+ 
