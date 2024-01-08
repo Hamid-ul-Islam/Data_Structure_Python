@@ -1,3 +1,5 @@
+
+
 #binary tree node class
 class TreeNode:
   def __init__(self, data):
