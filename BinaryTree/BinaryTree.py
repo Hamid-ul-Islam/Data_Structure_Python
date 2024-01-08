@@ -55,4 +55,4 @@ def treeInput():
     return None #-1 means the node would be None and parent node will be linked to None as their left or right node
   
   rootNode = TreeNode(data)
-  leftNode = TreeNode()
+  leftNode = TreeNode(treeInput())
