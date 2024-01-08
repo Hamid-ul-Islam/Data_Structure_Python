@@ -14,3 +14,4 @@ rootNode.left = node2
 rootNode.right = node3
 
 def heightOfTree(root):
+    
