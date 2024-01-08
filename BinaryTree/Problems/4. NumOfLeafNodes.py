@@ -17,7 +17,7 @@ rootNode.right = node3
 node2.left = node4
 node2.right = node5
 
-#when right and left node will be None, then this is the 
+#when right and left node will be None, then that node has no child
 def numOfLeafNodes(root):
     if root.left is None and root.right is None:
         return 1
