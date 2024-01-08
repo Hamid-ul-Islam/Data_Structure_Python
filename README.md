@@ -36,3 +36,8 @@ To make the most of this repository, follow these steps:
 
    ```bash
    git clone https://github.com/HamidTheDev/Data_Structure_Python.git
+
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
