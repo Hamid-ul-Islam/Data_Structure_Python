@@ -36,4 +36,5 @@ def printTreeDetailed(root):
   
   print(root.data, end=": ")
   print("L->",root.left.data)
-  print("R->", root.)
+  print("R->", root.right.data)
+  
