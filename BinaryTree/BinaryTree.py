@@ -50,3 +50,4 @@ printTreeDetailed(rootNode)
 #taking input for binary tree
 def treeInput():
   data = int(input())
+  
