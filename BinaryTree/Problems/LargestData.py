@@ -13,7 +13,7 @@ node3 = TreeNode(3)
 rootNode.left = node2
 rootNode.right = node3
 
-#logic: last most left and right node will return -1, -1 and we will find max of the node and -1, -1 like max(node, -1 -1) it will continue for all the node both 
+#logic: last most left and right node will return -1, -1 and we will find max of the node and -1, -1 like max(node, -1 -1) it will continue for all the node both left and right side
 def largestData(root):
     if root is None:
         return -1
