@@ -1,3 +1,6 @@
+from BinaryTree import TreeNode
+
+
 #taking input recursively for binary tree
 def treeInput():
   data = int(input())
