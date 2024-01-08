@@ -33,7 +33,7 @@ def printTreeDetailed(root):
   #base case
   if root == None:
     return
-  
+  if 
   print("R->", root.right.data)
   print(root.data)
   print("L->",root.left.data)
