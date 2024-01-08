@@ -16,7 +16,7 @@ rootNode.right = node3
 def numOfNodes(root):
     if root is None:
         return 0
-    leftNodeCount = numOfNodes(root.left) #numOfNodes() function will keep calling for left node untill it's reached to the None of
+    leftNodeCount = numOfNodes(root.left) #numOfNodes() function will keep calling for left node untill it's reached to the None
     rightNodeCount = numOfNodes(root.right)
     
     return leftNodeCount + rightNodeCount + 1 #adding +1 for every return
