@@ -41,25 +41,4 @@ def treeInput():
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
 
 #taking input and printing
-# printTreeDetailed(treeInput())
-
-
-#taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
-def treeInputList(lst, index=0):
-  if index >= len(lst):
-    return None
-  if lst[index] == -1:
-    return None
-  
-  rootNode = TreeNode(lst[index])
-  rootNode.left = treeInputList(lst, index + 1)
-  # Check if subsequent elements exist for right child before assigning
-  if index + 2 < len(lst) and lst[index + 2] != -1:
-    rootNode.right = treeInputList(lst, index + 2)
-  
-  return rootNode
-
-# Example usage
-values = [int(ele) for ele in input().split()]
-rootNode = treeInputList(values)
-printTree(rootNode)
+printTreeDetailed(treeInput())
