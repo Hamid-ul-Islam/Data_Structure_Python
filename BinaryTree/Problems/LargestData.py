@@ -16,4 +16,4 @@ rootNode.right = node3
 def largestData(root):
     if root is None:
         return -1
-    
+    leftLarge
