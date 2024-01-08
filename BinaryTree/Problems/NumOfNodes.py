@@ -13,4 +13,4 @@ root.left = node2
 root.right = node3
 
 def numOfNodes(root):
-    
+    if root is 
