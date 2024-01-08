@@ -16,4 +16,4 @@ rootNode.right = node3
 def heightOfTree(root):
     if root is None:
         return 0
-    left
+    leftHeight = 
