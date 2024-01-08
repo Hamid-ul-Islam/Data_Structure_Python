@@ -56,5 +56,5 @@ def treeInputUseful(n):
         return None
     root = TreeNode(data)
     leftNode = treeInputUseful()
-        
+    rightNode = treeInputUseful()    
     
