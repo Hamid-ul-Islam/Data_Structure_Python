@@ -46,19 +46,21 @@ def treeInput():
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
 def treeInputList(lst, index=0):
-    if index >= len(lst):
-        return
-    if lst[index] == -1:
-        return None
-    
-    rootNode = TreeNode(lst[index])
-    leftNode = treeInputList(lst, index + 1)
-    rightNode = treeInputList(lst, index + 2)
-    
+  if index >= len(lst):
+    return None
+  if lst[index] == -1:
+    return None
+  
+  rootNode = TreeNode(lst[index])
+  leftNode = treeInputList(lst, index + 1)
+  rightNode = treeInputList(lst, index + 2)
+  
+  if leftNode is not None or rightNode is not None:
     rootNode.left = leftNode
     rootNode.right = rightNode
-    
-    return rootNode
+  
+  return rootNode
+
 
 
 values = [int(ele) for ele in input().split()]
