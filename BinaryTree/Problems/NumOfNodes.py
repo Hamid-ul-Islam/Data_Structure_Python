@@ -1,1 +1,1 @@
-from '../BinaryTree.py' import TreeNode
+from  import TreeNode
