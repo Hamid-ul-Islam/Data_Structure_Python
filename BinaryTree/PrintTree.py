@@ -1,5 +1,3 @@
-from BinaryTree import TreeNode
-
 #simple printing binary tree with recursion
 def printTree(root):
   #base case
