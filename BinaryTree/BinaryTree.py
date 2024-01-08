@@ -50,6 +50,7 @@ values = [int(input("Enter value: ")) for i in range(num_nodes)]
 
 def treeInputUseful(n):
     data = values[n]
-    if n > 
+    if n > num_nodes:
+        return
     if 
     
