@@ -29,6 +29,7 @@ printTree(rootNode)
 
 #print tree in details
 def printTreeDetailed(root):
+  #base case
   if root == None:
     return
   
