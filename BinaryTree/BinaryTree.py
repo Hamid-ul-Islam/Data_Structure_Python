@@ -18,7 +18,7 @@ rootNode.left = node2
 rootNode.right = node3
 
 
-#taking input recursively for binary tree
+#taking input recursively for creating binary tree
 def treeInput():
   data = int(input())
   #base case
