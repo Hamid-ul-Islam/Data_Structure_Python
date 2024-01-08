@@ -5,4 +5,5 @@ node2 = TreeNode(5)
 node3 = TreeNode(3)
 
 
-root.left = TreeNode
+root.left = node2
+root.right = nod
