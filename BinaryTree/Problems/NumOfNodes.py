@@ -1,5 +1,6 @@
+import sys
+sys.path.append('../')
 
-from  import TreeNode
 
 root = TreeNode(10)
 node2 = TreeNode(5)
