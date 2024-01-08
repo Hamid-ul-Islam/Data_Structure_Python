@@ -5,3 +5,4 @@ class TreeNode:
  self.right = None
 
 rootNode = TreeNode(5)
+node
