@@ -23,6 +23,6 @@ def numOfLeafNodes(root):
     leafNodeOnLeft = numOfLeafNodes(root.left)
     leafNodeOnRight = numOfLeafNodes(root.right)
 
-    return leafNodeOnLeft + leafNodeOnRight
+    return (leafNodeOnLeft + leafNodeOnRight)
 
 print(numOfLeafNodes(rootNode))
