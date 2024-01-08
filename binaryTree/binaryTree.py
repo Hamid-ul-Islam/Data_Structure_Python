@@ -11,4 +11,5 @@ node2 = TreeNode(10)
 node3 = TreeNode(20)
 
 #linking node with each other
-rootNode.left = nod
+rootNode.left = node2
+rootNode.right = node3
