@@ -5,28 +5,39 @@ Welcome to the Data_Structure_Python repository! This repository serves as a com
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Data Structures](#data-structures)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [Folder Structure](#folder-structure)
+3. [Data Structures](#data-structures)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Introduction
 
 Understanding and implementing data structures is crucial for building efficient and scalable software solutions. This repository is created to support your learning journey by offering a hands-on approach to various data structures in the Python programming language.
 
-## Data Structures
+## Folder Structure
 
-The repository currently covers the following data structures:
+The repository is organized into folders, each representing a specific data structure. Here is the current folder structure:
 
-- [LinkedList](LinkedList.py)
-- [Stack](Stack.py)
-- [Queue](Queue.py)
-- [BinarySearchTree](BinarySearchTree.py)
-- [Heap](Heap.py)
-- [Graph](Graph.py)
-- [HashTable](HashTable.py)
+- [BinaryTree](BinaryTree/)
+- [Graph](Graph/)
+- [HashTable](HashTable/)
+- [LinkedList](LinkedList/)
+- [Stack](Stack/)
+- [Queue](Queue/)
+- [Heap](Heap/)
 
-Each implementation is accompanied by detailed explanations and comments to facilitate easy comprehension.
+Each folder contains the implementation of the respective data structure. You can find the Python files within each folder, and the file paths are structured as follows:
+
+- `BinaryTree`: [BinarySearchTree.py](BinaryTree/BinarySearchTree.py)
+- `Graph`: [Graph.py](Graph/Graph.py)
+- `HashTable`: [HashTable.py](HashTable/HashTable.py)
+- `LinkedList`: [LinkedList.py](LinkedList/LinkedList.py)
+- `Stack`: [Stack.py](Stack/Stack.py)
+- `Queue`: [Queue.py](Queue/Queue.py)
+- `Heap`: [Heap.py](Heap/Heap.py)
+
+The detailed explanations and comments within each Python file facilitate easy comprehension.
 
 ## Usage
 
