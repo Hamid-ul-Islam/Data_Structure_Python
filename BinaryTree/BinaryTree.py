@@ -25,3 +25,5 @@ def printTree(root):
 
 #print tree function call -> 5, 10, 20
 printTree(rootNode)
+
+
