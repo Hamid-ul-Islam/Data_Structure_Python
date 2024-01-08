@@ -45,4 +45,4 @@ printTreeDetailed(treeInput())
 
 
 #taking input with list comprehension [5 3 -1 -1 4 -1 -1]
-def treeInput
+def treeInputEasy
