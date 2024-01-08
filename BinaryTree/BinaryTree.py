@@ -35,4 +35,4 @@ def printTreeDetailed(root):
     return
   
   print(root.data, end=": ")
-  print()
+  print(root.left.data)
