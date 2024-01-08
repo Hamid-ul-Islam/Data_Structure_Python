@@ -3,7 +3,7 @@ class TreeNode:
   def __init__(self, data):
     self.data = data
     self.left = None
-  self.right = None
+    self.right = None
 
 #creating node with node class
 rootNode = TreeNode(5)
