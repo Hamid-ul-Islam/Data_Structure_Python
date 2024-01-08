@@ -1,2 +1,3 @@
 class TreeNode:
- __init__(self, data)
+ __init__(self, data):
+ 
