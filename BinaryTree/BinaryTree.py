@@ -18,7 +18,7 @@ rootNode.left = node2
 rootNode.right = node3
 
 #print above created tree 
-printTreeDetailed(rootNode)
+printTree(rootNode)
 
 
 
