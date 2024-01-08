@@ -17,7 +17,7 @@ node3 = TreeNode(20)
 rootNode.left = node2
 rootNode.right = node3
 
-#print above created tree 
+#print above created tree (simple)
 printTree(rootNode)
 
 
@@ -40,5 +40,5 @@ def treeInput():
   
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
 
-#taking input and printing
+#taking input and printing 
 printTreeDetailed(treeInput())
