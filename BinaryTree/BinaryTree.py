@@ -56,7 +56,7 @@ def treeInput():
   
   #creating a rootNode, also left and right node for the root node each time
   rootNode = TreeNode(data)
-  leftNode = TreeNode(treeInput()) #treeInput function agail
+  leftNode = TreeNode(treeInput()) #treeInput function again called and 
   rightNode = TreeNode(treeInput())
   
   #linking created node with each
