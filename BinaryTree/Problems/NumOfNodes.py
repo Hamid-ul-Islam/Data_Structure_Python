@@ -1,4 +1,5 @@
-class 
+class TreeNode:
+    __in
 
 root = TreeNode(10)
 node2 = TreeNode(5)
