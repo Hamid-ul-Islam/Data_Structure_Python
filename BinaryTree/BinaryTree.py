@@ -64,3 +64,4 @@ def treeInput():
   rootNode.right = rightNode
   
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
+
