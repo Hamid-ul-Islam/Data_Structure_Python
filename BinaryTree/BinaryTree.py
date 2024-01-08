@@ -41,7 +41,7 @@ def treeInput():
   return rootNode #it will return the firs-most root node of the whole tree which is needed for printing nodes
 
 #taking input and printing
-printTreeDetailed(treeInput())
+# printTreeDetailed(treeInput())
 
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
@@ -63,4 +63,4 @@ def treeInputUseful(n):
     
     return root    
 
-printTree(treeInputUseful)
+printTree(treeInputUseful(0))
