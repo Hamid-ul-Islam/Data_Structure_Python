@@ -20,7 +20,7 @@ rootNode.right = node3
 
 
 #taking input recursively for binary tree
-def treeInput(TreeNode):
+def treeInput():
   data = int(input())
   #base case
   if(data == -1):
