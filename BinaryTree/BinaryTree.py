@@ -17,4 +17,5 @@ rootNode.right = node3
 #printing binary tree
 def printTree(root):
  if root is not None:
-  print()
+  print(root.data)
+  
