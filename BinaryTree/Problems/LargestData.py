@@ -17,4 +17,4 @@ def largestData(root):
     if root is None:
         return -1
     leftLarge = largestData(root.left)
-    rightLarge
+    rightLarge = largestData(root.right)
