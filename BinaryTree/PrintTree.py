@@ -1,4 +1,4 @@
-from 
+from BinaryTree import TreeNode
 
 #printing binary tree with recursion
 def printTree(root):
