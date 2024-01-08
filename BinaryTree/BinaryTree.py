@@ -49,5 +49,5 @@ num_nodes = int(input("Enter the number of Nodes: "))
 values = [int(input("Enter value: ")) for i in range(num_nodes)]
 
 def treeInputUseful(n):
-    if 
+    if n == 
     
