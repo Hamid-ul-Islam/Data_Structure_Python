@@ -1,1 +1,1 @@
-from BinaryTree
+from BinaryTree import TreeNode
