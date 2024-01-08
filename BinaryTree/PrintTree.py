@@ -15,10 +15,10 @@ def printTreeDetailed(root):
   if root == None:
     return
   if root.right is not None:
-    print("R->", root.right.data)
+    print(" R->", root.right.data)
   print(root.data) #root node data
   if root.left is not None:
-    print("L->",root.left.data)
+    print(" L->",root.left.data)
   print("") #for new line after one node (with left and right node) is printed
   
   printTreeDetailed(root.left)
