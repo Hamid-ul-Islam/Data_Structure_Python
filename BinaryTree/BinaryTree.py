@@ -47,7 +47,7 @@ def printTreeDetailed(root):
 printTreeDetailed(rootNode)
 
 
-#taking input for binary tree
+#taking input recursively for binary tree
 def treeInput():
   data = int(input())
   #base case
