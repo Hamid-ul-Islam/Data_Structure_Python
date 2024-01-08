@@ -56,7 +56,7 @@ def treeInput():
   
   #creating a rootNode, also left and right node for the root node each time
   rootNode = TreeNode(data)
-  leftNode = TreeNode(treeInput()) #treeInput() again called and it will create leftNode() ask for left and right for it
+  leftNode = TreeNode(treeInput()) #treeInput() again called and it will create leftNode(root) ask for left and right for it
   rightNode = TreeNode(treeInput())
   
   #linking created node with each
