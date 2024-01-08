@@ -48,20 +48,18 @@ def treeInput():
 values = [int(ele) for ele in input().split()]
 length = len(values)
 
-def treeInputUseful(n):
-    if(n > length):
-        return
-    data = values[n]
-    print("data: ", data)
-    if data == -1:
+def treeInputList(lst, index=0):
+    if index >= len(lst) or lst[index] == -1:
         return None
-    root = TreeNode(data)
-    leftNode = treeInputUseful(n+1)
-    rightNode = treeInputUseful(n+)
     
-    root.left = leftNode
-    root.right = rightNode
+    rootNode = TreeNode(lst[index])
+    leftNode = treeInputList(lst, index + 1)
+    rightNode = treeInputList(lst, index + 2)
     
-    return root    
+    rootNode.left = leftNode
+    rootNode.right = rightNode
+    
+    return rootNode
+
 
 printTree(treeInputUseful(0))
