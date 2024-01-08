@@ -60,5 +60,4 @@ def treeInputList(lst, index=0):
 
 
 values = [int(ele) for ele in input().split()]
-length = len(values)
 printTree(treeInputUseful(0))
