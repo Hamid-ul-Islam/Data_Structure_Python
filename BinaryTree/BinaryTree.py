@@ -27,3 +27,5 @@ def printTree(root):
 printTree(rootNode)
 
 
+#print tree in details
+def pr
