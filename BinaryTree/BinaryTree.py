@@ -45,7 +45,7 @@ def treeInput():
 
 
 #taking input for binary tree with list comprehension [5 3 -1 -1 4 -1 -1]
-values = [int(input(ele) for ele in range(num_nodes)]
+values = [int(input(ele) for ele in intput]
 
 def treeInputUseful(n):
     if data == -1:
