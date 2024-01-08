@@ -1,4 +1,4 @@
-#cr
+#creating treenode again
 class TreeNode:
    def __init__(self, data):
        self.data = data
