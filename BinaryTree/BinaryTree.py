@@ -52,7 +52,7 @@ def treeInputUseful(n):
     if(n > length):
         return
     data = values[n]
-    
+    print("data: ", data)
     if data == -1:
         return None
     root = TreeNode(data)
