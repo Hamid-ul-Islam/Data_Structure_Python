@@ -4,3 +4,4 @@ class TreeNode:
  self.left = None
  self.right = None
 
+rootNode = TreeNode()
