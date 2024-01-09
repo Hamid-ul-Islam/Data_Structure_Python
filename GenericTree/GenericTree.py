@@ -31,7 +31,7 @@ def printTree(root, level=0):
 
         # Recursively call printTree for each child of the current node
         for child in root.children:
-            printTree(child, level + 1)
+            printTree(child)
         
         
 printTree(n1)
