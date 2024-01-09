@@ -41,4 +41,5 @@ printTree(n1) #giving root n1 as input
 def takeInput():
     data = int(input())
     rootNode = Node(data)
-    if data
+    if data == -1:
+        
