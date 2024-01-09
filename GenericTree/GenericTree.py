@@ -46,7 +46,7 @@ def takeInput():
     childNode = takeInput()
     rootNode.children.append(childNode)
     
-    return 
+    return rootNode
 
 
-takeInput()
+takeInput())
