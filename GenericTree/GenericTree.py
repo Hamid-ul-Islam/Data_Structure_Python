@@ -30,7 +30,6 @@ def printTree(root, index=0):
     else:
         return
     printTree(root.children[index], index+1)
-    else:
         index = 0
         
         
