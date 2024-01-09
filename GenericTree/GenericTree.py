@@ -12,4 +12,3 @@ n5 = Node(7)
 n6 = Node(9)
 n7 = Node(10)
 
-
