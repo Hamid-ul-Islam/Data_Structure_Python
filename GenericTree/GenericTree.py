@@ -47,3 +47,4 @@ def takeInput():
     rootNode.children.append(childNode)
 
 
+takeInput()
