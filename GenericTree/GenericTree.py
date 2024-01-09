@@ -42,4 +42,5 @@ def takeInput():
     data = int(input())
     rootNode = Node(data)
     if data == -1:
-        
+        return None
+    
