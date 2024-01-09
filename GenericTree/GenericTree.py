@@ -8,9 +8,9 @@ class Node:
 n1 = Node(5)
 n2 = Node(3)
 n3 = Node(4)
-n = Node(7)
-n6 = Node(9)
-n7 = Node(10)
+n4 = Node(7)
+n5 = Node(9)
+n6 = Node(10)
 
 #linking nodes
 n1.children.append(n2)
