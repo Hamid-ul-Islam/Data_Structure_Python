@@ -9,4 +9,5 @@ n1 = Node(5)
 n2 = Node(3)
 n4 = Node(4)
 n5 = Node(7)
-n6 = Node()
+n6 = Node(9)
+n7 = 
