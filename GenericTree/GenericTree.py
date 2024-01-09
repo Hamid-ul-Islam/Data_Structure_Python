@@ -44,7 +44,7 @@ def takeInput():
         return None
 
     rootNode = Node(data)
-    while True: #
+    while True: #ta
         childNode = takeInput()
         if childNode is None: #children will None(returned from base case) when input value is -1 
             break
