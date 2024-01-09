@@ -46,7 +46,7 @@ def takeInput():
     rootNode = Node(data)
     while True:
         childNode = takeInput()
-        if childNode is None: #children will none 
+        if childNode is None: #children will none when input
             break
         rootNode.children.append(childNode)
 
