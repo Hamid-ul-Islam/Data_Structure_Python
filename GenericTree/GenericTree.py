@@ -24,3 +24,4 @@ n2.children.append(n7)
 
 
 #printing generic trees
+def printTree(root)
