@@ -20,4 +20,4 @@ n1.children.append(n4)
 n1.children.append(n5)
 
 n2.children.append(n6)
-n
+n2.children.append(n7)
