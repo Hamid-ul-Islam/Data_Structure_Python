@@ -13,4 +13,5 @@ n6 = Node(9)
 n7 = Node(10)
 
 #linking nodes
-n1.children.append(n)
+n1.children.append(n2)
+n1.children.append()
