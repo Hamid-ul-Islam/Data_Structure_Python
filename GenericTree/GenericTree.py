@@ -37,6 +37,6 @@ def printTree(root, level=0):
 printTree(n1) #giving root n1 as input
 
 
-#take generic tree input 
+#take generic tree input (for every input we have )
 def takeInput():
     
