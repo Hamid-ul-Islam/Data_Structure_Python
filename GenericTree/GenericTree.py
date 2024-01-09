@@ -8,3 +8,4 @@ class Node:
 n1 = Node(5)
 n2 = Node(3)
 n4 = Node(4)
+n5 = Node()
