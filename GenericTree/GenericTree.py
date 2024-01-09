@@ -33,3 +33,5 @@ def printTree(root, index=0):
         printTree(root.children[index], index+1)
     else:
         index = 0
+        
+        
