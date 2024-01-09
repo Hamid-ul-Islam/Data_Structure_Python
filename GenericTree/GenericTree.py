@@ -4,3 +4,4 @@ class Node:
         self.data = data
         self.children = [] #addresses of the child nodes
 
+#creating 
