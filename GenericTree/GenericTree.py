@@ -24,7 +24,7 @@ n2.children.append(n7)
 
 
 #printing generic trees
-def printTree(root):
+def printTree(root, ):
     if root is not None:
         print(root.data)
     else:
