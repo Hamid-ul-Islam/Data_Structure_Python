@@ -49,4 +49,4 @@ def takeInput():
     return rootNode
 
 
-takeInput())
+printTree(takeInput())
