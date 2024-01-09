@@ -5,3 +5,5 @@ class Node:
         self.children = [] #addresses of the child nodes
 
 #creating nodes
+n1 = Node(5)
+n
