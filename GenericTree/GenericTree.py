@@ -34,4 +34,4 @@ def printTree(root, level=0):
             printTree(child)
         
         
-printTree(n1) #giving root as input
+printTree(n1) #giving root n1 as input
