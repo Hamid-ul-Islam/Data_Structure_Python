@@ -37,6 +37,6 @@ def printTree(root, level=0):
 printTree(n1) #giving root n1 as input
 
 
-#take generic tree input (for every input func we have to take input first and create a node. then we have to take care of the base case and then link nodes with each other)
+#take generic tree input (for every input func we have to take input first and create a node. then we have to take care of the base case and then have to link nodes with each other)
 def takeInput():
     
