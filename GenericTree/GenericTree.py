@@ -26,4 +26,5 @@ n2.children.append(n7)
 #printing generic trees
 def printTree(root):
     if root is not None:
-        p
+        print(root.data)
+        
