@@ -7,3 +7,4 @@ class Node:
 #creating nodes
 n1 = Node(5)
 n2 = Node(3)
+n
