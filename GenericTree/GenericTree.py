@@ -40,13 +40,16 @@ printTree(n1) #giving root n1 as input
 #take generic tree input (for every input func we have to take input first and create a node. then we have to take care of the base case and then have to link nodes with each other)
 def takeInput():
     data = int(input())
-    rootNode = Node(data)
     if data == -1:
         return None
-    childNode = takeInput()
-    rootNode.children.append(childNode)
-    
-    return rootNode
 
+    rootNode = Node(data)
+    while True:
+        childNode = takeInput()
+        if childNode is None:
+            break
+        rootNode.children.append(childNode)
+
+    return rootNode
 
 printTree(takeInput())
