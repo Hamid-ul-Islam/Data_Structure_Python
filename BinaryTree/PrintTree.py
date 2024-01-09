@@ -23,3 +23,4 @@ def printTreeDetailed(root):
   
   printTreeDetailed(root.left)
   printTreeDetailed(root.right)
+
