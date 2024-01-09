@@ -26,12 +26,12 @@ n2.children.append(n7)
 #printing generic trees
 def printTree(root, level=0):
     if root is not None:
-        # Print the current node's data
-        print(root.data)
+        # Print the current node's data with indentation based on the level
+        print("  " * level + str(root.data))
 
         # Recursively call printTree for each child of the current node
         for child in root.children:
-            printTree(child)
+            printTree(child, level + 1)
         
         
 printTree(n1) #giving root n1 as input
