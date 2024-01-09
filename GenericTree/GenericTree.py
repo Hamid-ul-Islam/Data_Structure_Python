@@ -35,3 +35,4 @@ def printTree(root, index=0):
         index = 0
         
         
+printTree(n1)
