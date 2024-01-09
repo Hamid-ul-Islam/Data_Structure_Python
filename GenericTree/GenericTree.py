@@ -29,7 +29,6 @@ def printTree(root, index=0):
         print(root.data)
     else:
         return
-    if root.children[index] is not None:
         printTree(root.children[index], index+1)
     else:
         index = 0
