@@ -29,7 +29,7 @@ def printTree(root, index=0):
         print(root.data)
     else:
         return
-        printTree(root.children[index], index+1)
+    printTree(root.children[index], index+1)
     else:
         index = 0
         
