@@ -38,4 +38,5 @@ printTree(n1) #giving root n1 as input
 
 
 #take generic tree input
-def takeInput()
+def takeInput():
+    
