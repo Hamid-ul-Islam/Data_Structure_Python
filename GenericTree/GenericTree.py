@@ -43,5 +43,5 @@ def takeInput():
     rootNode = Node(data)
     if data == -1:
         return None
-    nodeFor
+    childNode
     rootNode.children.append()
