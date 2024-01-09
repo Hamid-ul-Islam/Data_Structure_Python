@@ -32,4 +32,4 @@ def printTree(root, index=0):
     if root.children[index] is not None:
         printTree(root.children[index], index+1)
     else:
-        in
+        index = 0
