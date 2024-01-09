@@ -29,4 +29,4 @@ def printTree(root, index=0):
         print(root.data)
     else:
         return
-    if(root.ch)
+    if(root.children)
