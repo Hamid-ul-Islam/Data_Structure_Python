@@ -27,4 +27,6 @@ n2.children.append(n7)
 def printTree(root):
     if root is not None:
         print(root.data)
-    el
+    else:
+        return
+    
