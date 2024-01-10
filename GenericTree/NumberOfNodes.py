@@ -23,4 +23,6 @@ n2.children.append(n6)
 n2.children.append(n7)
 
 
-#finding the number of nodes logic: every leaf nodes has no child(None) and it should return 0 and we will add +1  
+#finding the number of nodes logic: every leaf nodes has no child(None) and it should return 0 and we will add +1 with every recursive return of the function
+
+def number 
