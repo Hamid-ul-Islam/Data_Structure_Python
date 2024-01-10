@@ -23,4 +23,4 @@ n2.children.append(n6)
 n2.children.append(n7)
 
 
-#finding the number of nodes logic: every leaf nodes has no child and it should return 
+#finding the number of nodes logic: every leaf nodes has no child(None) and it should return  
