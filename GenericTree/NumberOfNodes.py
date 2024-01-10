@@ -31,4 +31,4 @@ def numberOfNodes(root):
     for child in root.children:
         return numberOfNodes(child) + 1
     
-print(numberOfNodes())
+print(numberOfNodes(n1))
