@@ -27,7 +27,7 @@ n2.children.append(n7)
 
 def numberOfNodes(root):
     if root is None:
-        return 0
+        return 0 
     
     count = 1  # Counting the current node
     
