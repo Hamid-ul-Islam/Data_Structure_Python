@@ -2,7 +2,7 @@
 class Node:
     def __init__(self, data):#here None is the return type of the function and it's optional in python
         self.data = data
-        self.children = [] #addresses of the child nodes
+        self.children = list() #addresses of the child nodes
 
 #creating nodes
 n1 = Node(5)
