@@ -23,4 +23,4 @@ n2.children.append(n6)
 n2.children.append(n7)
 
 
-#
+#number of nodes 
