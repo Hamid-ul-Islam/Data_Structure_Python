@@ -23,4 +23,4 @@ n2.children.append(n6)
 n2.children.append(n7)
 
 
-#finding the number of nodes logic:
+#finding the number of nodes logic: every leaf nodes
