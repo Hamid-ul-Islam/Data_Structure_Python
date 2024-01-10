@@ -29,4 +29,4 @@ def numberOfNodes(root):
     if root is None:
         return 0
     for child in root.children:
-        
+        return n
