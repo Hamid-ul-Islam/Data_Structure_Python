@@ -30,3 +30,4 @@ def numberOfNodes(root):
         return 0
     for child in root.children:
         return numberOfNodes(child) + 1
+    
