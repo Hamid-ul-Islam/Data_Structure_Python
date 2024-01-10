@@ -28,7 +28,12 @@ n2.children.append(n7)
 def numberOfNodes(root):
     if root is None:
         return 0
-    for child in root.children:
-        return numberOfNodes(child) + 1
     
+    count = 1  # Counting the current node
+    
+    for child in root.children:
+        count += numberOfNodes(child)
+        
+    return count
+
 print(numberOfNodes(n1))
