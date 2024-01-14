@@ -27,7 +27,7 @@ class HashMap:
         self.count += 1
     
     def remove(self, key):
-        index = self.h
+        index = self.hash(key)
     
     def size(self):
         return self.count
