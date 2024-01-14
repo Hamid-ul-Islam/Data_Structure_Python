@@ -26,6 +26,8 @@ class HashMap:
         self.buckets[index] = newNode
         self.count += 1
     
+    def remove
+    
     def size(self):
         return self.count
 
