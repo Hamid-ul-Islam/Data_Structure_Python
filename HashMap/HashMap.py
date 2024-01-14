@@ -32,7 +32,8 @@ class HashMap:
         prev = None
         while head:
             if head.key == key:
-                prev.
+                prev.next = head.next
+                
     
     def size(self):
         return self.count
