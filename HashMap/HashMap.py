@@ -9,6 +9,7 @@ class HashMap:
     def __init__(self, size):
         self.size = size
         self.buckets = [None] * size
+        self.cout = 
 
     def hash(self, key):
         return abs(hash(key) % self.size)
