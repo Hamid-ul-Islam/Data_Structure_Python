@@ -15,17 +15,8 @@ class HashMap:
         return (abs(hash(key)) % self.size)
 
     def insert(self, key, value):
-        index = self.hash(key)
-        if not self.buckets[index]:
-            self.buckets[index] = Node(key, value)
-        else:
-            current = self.buckets[index]
-            while current.next:
-                if current.key == key:
-                    current.value = value
-                    return
-                current = current.next
-            current.next = Node(key, value)
+        
+        
 
     def get(self, key):
         idx = self.hash(key)
