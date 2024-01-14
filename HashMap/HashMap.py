@@ -29,6 +29,7 @@ class HashMap:
     def remove(self, key):
         index = self.hash(key)
         head = self.buckets[index]
+        prev = None
         while head:
             if head.key == key:
                 
