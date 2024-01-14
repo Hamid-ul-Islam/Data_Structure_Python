@@ -19,7 +19,7 @@ class Graph:
     
     #printing function
     def __str__(self) -> str:
-        pass
+        return str()
 g = Graph(5)
 g.addEdge(0, 1)
 g.addEdge(1, 3)
