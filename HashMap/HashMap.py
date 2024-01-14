@@ -52,7 +52,7 @@ class HashMap:
 hash_map = HashMap(10)
 hash_map.put("google", "value1")
 hash_map.put("facebook", "value2")
-hash_map.put("key3", "value3")
+hash_map.put("amazon", "value3")
 
 print(hash_map.get("key1"))  # Output: value1
 print(hash_map.get("key2"))  # Output: value2
