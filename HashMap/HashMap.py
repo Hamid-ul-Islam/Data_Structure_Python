@@ -37,7 +37,7 @@ class HashMap:
                     self.count -= 1
                 else:
                     prev.next = head.next
-                    self.count 
+                    self.count -= 1
             
             prev = head
             head = head.next
