@@ -34,7 +34,7 @@ class HashMap:
             if head.key == key:
                 if prev is None:
                     self.buckets[index] = None
-                    cou
+                    self.count 
                 else:
                     prev.next = head.next
             
