@@ -33,7 +33,7 @@ class HashMap:
         while head:
             if head.key == key:
                 if prev is None:
-                    
+                    self.buckets[index] = 
                 prev.next = head.next
                 
     
