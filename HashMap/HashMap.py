@@ -18,7 +18,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
     def insert(self, key, value):
         index = self.hash(key)
         head = self.buckets[index]
-        while head:
+        while head: #
             if head.key == key:
                 head.value = value
                 return
