@@ -12,7 +12,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         self.bucketSize = size
         self.count = 0
 
-    def hash(self, key): # this returns index within the bucketsize (we maintain a threshold of )
+    def hash(self, key): # this returns index within the bucketsize (we maintain a threshold of 0.7)
         return (abs(hash(key)) % self.bucketSize)
 
     def insert(self, key, value):
