@@ -7,8 +7,8 @@ class MapNode:
 
 class HashMap:
     def __init__(self, size):
-        self.bucketSize = size
         self.buckets = [None] * size
+        self.bucketSize = size
         self.count = 0
 
     def hash(self, key):
