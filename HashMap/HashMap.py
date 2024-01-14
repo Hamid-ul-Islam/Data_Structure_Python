@@ -69,7 +69,7 @@ map.remove("abaaa")
 print(map.get("abaaa"))
 
 map.insert("abaaa", 999)
-map.get("ab", 60)
+(map.get("ab"))
 print(map.get("abaaa"))
 
 
