@@ -12,7 +12,7 @@ class HashMap:
     def _hash(self, key):
         return hash(key) % self.size
 
-    def insert(self, key, value):
+    def put(self, key, value):
         index = self._hash(key)
         if not self.buckets[index]:
             self.buckets[index] = Node(key, value)
@@ -49,17 +49,16 @@ class HashMap:
             current = current.next
 
 # Example usage:
-hash_map = HashMap(10) #hashmap of size 10 with all None values
-hash_map.insert("google", "gl")
-hash_map.insert("facebook", "fb")
-hash_map.insert("amazon", "ab")
+hash_map = HashMap(10)
+hash_map.put("key1", "value1")
+hash_map.put("key2", "value2")
+hash_map.put("key3", "value3")
 
-print(hash_map.get("google"))  # Output: gl
-print(hash_map.get("facebook"))  # Output: fb
+print(hash_map.get("key1"))  # Output: value1
+print(hash_map.get("key2"))  # Output: value2
 
-hash_map.insert("amazon", "new_value1")  # Update existing key
-print(hash_map.get("amazon"))  # Output: new_value1
+hash_map.put("key1", "new_value1")  # Update existing key
+print(hash_map.get("key1"))  # Output: new_value1
 
-hash_map.remove("amazon")
-print(hash_map.get("amazon"))  # Output: None (key2 is removed)
-print(hash_map.get("amazon"))  # Output: None (key2 is removed)
+hash_map.remove("key2")
+print(hash_map.get("key2"))  # Output: None (key2 is removed)
