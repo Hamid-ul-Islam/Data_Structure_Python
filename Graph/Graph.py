@@ -1,4 +1,4 @@
-#graph implementation with adjMatrix (2d array) (initialized all matrix with 0) here 
+#graph implementation with adjMatrix (2d array) (initialized all matrix with 0) here nodes = vertices and node = vertex
 class Graph:
     def __init__(self, vertices):
         self.vertices = vertices
