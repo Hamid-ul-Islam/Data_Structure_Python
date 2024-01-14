@@ -33,7 +33,6 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
     def remove(self, key):
         index = self.hash(key)
         head = self.buckets[index]
-        print(head)
         prev = None
         while head:
             if head.key == key:
