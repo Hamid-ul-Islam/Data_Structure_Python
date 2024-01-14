@@ -22,8 +22,8 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
             if head.key == key: #if any linkedlist nodes.key == givenKey, we simply have to update the value
                 head.value = value
                 return
-            head = head.next #else head will point to next node
-
+            head = head.next #else head will point to next node and search all the nodes by while loop
+        
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
