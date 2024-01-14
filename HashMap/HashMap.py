@@ -43,6 +43,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                 else:
                     prev.next = head.next
                     head = head.next
+                    print("head")
                     self.count -= 1
             
             #until head is not not None and head.key != key while loop will continue by prev will move to head and head will move one step forward means head.next
