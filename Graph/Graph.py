@@ -18,6 +18,8 @@ class Graph:
         return self.adjMatrix[v1][v2] > 0
     
     #printing function
+    def __str__(self) -> str:
+        pass
 g = Graph(5)
 g.addEdge(0, 1)
 g.addEdge(1, 3)
