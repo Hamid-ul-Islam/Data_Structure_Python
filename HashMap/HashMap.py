@@ -1,5 +1,5 @@
 #hashmap
-class Node:
+class MapNode:
     def __init__(self, key, value):
         self.key = key
         self.value = value
