@@ -53,7 +53,7 @@ class HashMap:
             current = current.next
         return None
     
-
+#creating map
 map = HashMap(10)
 
 #inserting
