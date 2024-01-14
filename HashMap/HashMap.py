@@ -21,7 +21,7 @@ class HashMap:
             if head.key == key:
                 head.value = value
                 return
-            head.
+            head = head.next
         
 
     def get(self, key):
