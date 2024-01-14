@@ -40,7 +40,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                     self.buckets[index] = None #prev is None for the first node and and we have to simply replace that with None
                 else:
                     prev.next = head.next
-                self.count -= 1
+                self.count -= 1 
             
             #until head is not not None and head.key != key while loop will continue by prev will move to head and head will move one step forward means head.next
             prev = head 
