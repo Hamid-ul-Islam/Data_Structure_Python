@@ -50,7 +50,7 @@ class HashMap:
 
 # Example usage:
 hash_map = HashMap(10)
-hash_map.put("key1", "value1")
+hash_map.put("google", "value1")
 hash_map.put("key2", "value2")
 hash_map.put("key3", "value3")
 
