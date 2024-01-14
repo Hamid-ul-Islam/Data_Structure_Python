@@ -68,7 +68,7 @@ map.insert("abaaa", 99)
 map.remove("abaaa")
 map.remove("ab")
 
-map.count()
+map.size()
 
 print(map.get("ab"))
 print(map.get("abaaa"))
