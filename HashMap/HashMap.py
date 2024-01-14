@@ -70,6 +70,7 @@ map.insert("abaaa", 99)
 
 print(map.get("abaaa"))
 
+
 #inserting
 map.insert("Hamid", 19)
 map.insert("BGC", 2)
