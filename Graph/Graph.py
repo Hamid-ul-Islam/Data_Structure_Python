@@ -19,3 +19,4 @@ class Graph:
     
     
 g = Graph(5)
+g.addEdge
