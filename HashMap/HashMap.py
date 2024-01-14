@@ -55,7 +55,7 @@ hash_map.put("key2", "BGC")
 hash_map.put("key3", "Robot")
 
 print(hash_map.get("key1"))  # Output: Hamid
-print(hash_map.get("key2"))  # Output: value2
+print(hash_map.get("key2"))  # Output: BGC
 
 hash_map.put("key1", "new_value1")  # Update existing key
 print(hash_map.get("key1"))  # Output: new_value1
