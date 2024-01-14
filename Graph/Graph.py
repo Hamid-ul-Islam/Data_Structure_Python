@@ -6,6 +6,6 @@ class Graph:
         
     def addEdge(self, v1, v2):
         self.adjMatrix[v1][v2] = 1
-        self.adjMatrix[v]
+        self.adjMatrix[v2]
     def removeEdge(self):
     def hasEdge(self)
