@@ -17,7 +17,7 @@ class Graph:
     def hasEdge(self, v1, v2):
         return self.adjMatrix[v1][v2] > 0
     
-    
+    #printing function
 g = Graph(5)
 g.addEdge(0, 1)
 g.addEdge(1, 3)
