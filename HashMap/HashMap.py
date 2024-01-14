@@ -52,7 +52,7 @@ class HashMap:
 hash_map = HashMap(10) #creating map of size 10 filled with None
 hash_map.put("key1", "Hamid")
 hash_map.put("key2", "BGC")
-hash_map.put("key3", "value3")
+hash_map.put("key3", "Robot")
 
 print(hash_map.get("key1"))  # Output: value1
 print(hash_map.get("key2"))  # Output: value2
