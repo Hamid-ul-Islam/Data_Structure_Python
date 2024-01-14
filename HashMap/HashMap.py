@@ -23,6 +23,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                 head.value = value
                 return
             head = head.next #else head will point to next node
+
         head = self.buckets[index]
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
