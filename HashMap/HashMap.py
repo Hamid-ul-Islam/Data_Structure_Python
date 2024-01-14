@@ -62,3 +62,4 @@ map.insert("BGC", 10) #update BGC value with 10
 
 map.remove("Hamid")
 
+map.get
