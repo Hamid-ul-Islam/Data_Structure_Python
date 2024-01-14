@@ -1,4 +1,4 @@
-#hashmap
+#hashmap node
 class MapNode:
     def __init__(self, key, value):
         self.key = key
