@@ -18,7 +18,7 @@ class HashMap:
         index = self.hash(key)
         head = self.buckets[index]
         while head:
-            
+            if head 
         
 
     def get(self, key):
