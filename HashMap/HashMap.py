@@ -42,4 +42,5 @@ map.insert("BGC", 2)
 
 
 print(map.get("Hamid"))
-(map.get("BGC"))
+print(map.get("BGC"))
+
