@@ -12,5 +12,5 @@ class Graph:
         self.adjMatrix[v1][v2] = 0
         self.adjMatrix[v2][v2] = 0
         
-    def hasEdge(self):
+    def hasEdge(self, v1, v2):
         if 
