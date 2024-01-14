@@ -39,7 +39,8 @@ class HashMap:
             
             prev = head
             head = head.next
-    
+        return None
+
     def size(self):
         return self.count
 
