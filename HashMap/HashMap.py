@@ -36,4 +36,4 @@ class HashMap:
         return None
     
     
-hashMap = 
+hashMap = HashMap(10)
