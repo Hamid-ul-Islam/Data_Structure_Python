@@ -30,6 +30,7 @@ print(g.hasEdge(1, 4))
 
 g.removeEdge(0, 1)
 
+print(g.hasEdge(0, 4))
 
 
 print(g)
