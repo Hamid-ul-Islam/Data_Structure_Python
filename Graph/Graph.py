@@ -10,7 +10,7 @@ class Graph:
 
     def removeEdge(self, v1, v2):
         if self.hasEdge(v1, v2) is False:
-            return None
+            return
         self.adjMatrix[v1][v2] = 0
         self.adjMatrix[v2][v2] = 0
         
