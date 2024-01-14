@@ -1,4 +1,4 @@
-#hashmap node : simply a list where every block contains a LinkedList. when we try to insert a key value pair
+#hashmap node : simply a list where every block contains a LinkedList. when we try to insert a key value pair into the list we
 class MapNode:
     def __init__(self, key, value):
         self.key = key
