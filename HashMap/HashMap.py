@@ -42,7 +42,6 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                     self.count -= 1
                 else:
                     prev.next = head.next
-                    head = head.next
                     print("head")
                     self.count -= 1
             
