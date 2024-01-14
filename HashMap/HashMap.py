@@ -49,4 +49,4 @@ map.insert("BGC", 10) #update BGC value with 10
 print(map.get("Hamid"))
 print(map.get("BGC"))
 
-map.size()
+print(map.size())
