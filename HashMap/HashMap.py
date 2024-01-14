@@ -32,7 +32,8 @@ class HashMap:
         prev = None
         while head:
             if head.key == key:
-                
+                if prev is None:
+                    
                 prev.next = head.next
                 
     
