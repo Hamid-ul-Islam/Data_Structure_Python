@@ -36,7 +36,9 @@ class HashMap:
                     self.buckets[index] = None
                 else:
                     prev.next = head.next
-                
+            
+            prev = head
+            head = head.next
     
     def size(self):
         return self.count
