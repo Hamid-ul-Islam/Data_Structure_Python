@@ -43,7 +43,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                     prev.next = head.next
                     self.count -= 1
             
-            prev = head #until
+            prev = head #until head is not not None and 
             head = head.next
         return None
 
