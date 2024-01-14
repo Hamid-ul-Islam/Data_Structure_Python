@@ -15,7 +15,7 @@ class HashMap:
         return (abs(hash(key)) % self.size)
 
     def insert(self, key, value):
-        index = ha
+        index = hash(key)
         
 
     def get(self, key):
