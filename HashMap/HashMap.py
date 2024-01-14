@@ -20,6 +20,7 @@ class HashMap:
         while head:
             if head.key == key:
                 head.value = value
+                return
         
 
     def get(self, key):
