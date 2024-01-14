@@ -73,7 +73,3 @@ map.remove("Hamid")
 
 #try to get after removing
 print(map.get("Hamid")) #returns None
-
-map.insert("Hamid", 19)
-
-print(map.get("Hamid"))
