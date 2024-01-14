@@ -50,11 +50,11 @@ class HashMap:
 
 # Example usage:
 hash_map = HashMap(10) #hashmap of size 10 with all None values
-hash_map.insert("google", "g")
+hash_map.insert("google", "gl")
 hash_map.insert("facebook", "fb")
 hash_map.insert("amazon", "ab")
 
-print(hash_map.get("google"))  # Output: value1
+print(hash_map.get("google"))  # Output: gl
 print(hash_map.get("facebook"))  # Output: value2
 
 hash_map.put("key1", "new_value1")  # Update existing key
