@@ -6,4 +6,4 @@ class Graph:
         
     def addEdge(self):
     def removeEdge(self):
-    def hash
+    def hasEdge(self)
