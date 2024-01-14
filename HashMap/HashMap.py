@@ -38,7 +38,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
             if head.key == key:
                 if prev is None:
                     self.buckets[index] = None #prev is None for the first node and and we have to simply replace that with None
-                    self.count -= 1
+                    # self.count -= 1
                 else:
                     prev.next = head.next
                     self.count -= 1
