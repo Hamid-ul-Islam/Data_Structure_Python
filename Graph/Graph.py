@@ -5,6 +5,6 @@ class Graph:
         self.adjMatrix = [[0] * vertices] * vertices #short form of listcomprehension [[0 for i in range(vertices)] for j in range(vertices)]
         
     def addEdge(self, v1, v2):
-        self.adjMatrix
+        self.adjMatrix[v1][v]
     def removeEdge(self):
     def hasEdge(self)
