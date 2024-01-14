@@ -28,6 +28,8 @@ g.addEdge(2, 4)
 
 print(g.hasEdge(1, 4))
 
-g.removeEdge()
+g.removeEdge(0, 1)
+
+
 
 print(g)
