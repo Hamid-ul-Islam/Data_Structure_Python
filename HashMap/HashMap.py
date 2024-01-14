@@ -38,3 +38,4 @@ class HashMap:
     
 map = HashMap(10)
 map.insert("Hamid", 19)
+map.insert("")
