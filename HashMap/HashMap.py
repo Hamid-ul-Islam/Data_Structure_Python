@@ -25,6 +25,7 @@ class HashMap:
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         
+        
 
     def get(self, key):
         idx = self.hash(key)
