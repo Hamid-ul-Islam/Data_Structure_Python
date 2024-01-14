@@ -2,4 +2,4 @@
 class Graph:
     def __init__(self, vertices):
         self.vertices = vertices
-        self.adjMatrix = [[0] * vertices] * vertices [[0 for i in range(vertices)] for j in ]
+        self.adjMatrix = [[0] * vertices] * vertices [[0 for i in range(vertices)] for j in range(vertices)]
