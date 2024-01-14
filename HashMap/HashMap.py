@@ -61,11 +61,6 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
     
 #creating map of size 10 initialized with None
 map = HashMap(10)
-map.insert("ab", 60)
-map.insert("abaaa", 99)
-
-map.remove("abaaa")
-# map.remove("ab")
 
 print("Size = ",map.size())
 
