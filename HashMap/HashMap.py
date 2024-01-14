@@ -42,7 +42,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                     prev.next = head.next
                 self.count -= 1 #if else cond will delete a node and this line will execute (-1)
             
-            #until head is not not None and head.key != key while loop will continue by prev will move to head and head will move one step forward means head.next
+            #until head is not None and head.key != key while loop will continue by prev will move to head and head will move one step forward means head.next
             prev = head 
             head = head.next
         return None
