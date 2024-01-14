@@ -1,4 +1,3 @@
-#hashmap
 class Node:
     def __init__(self, key, value):
         self.key = key
@@ -10,11 +9,11 @@ class HashMap:
         self.size = size
         self.buckets = [None] * size
 
-    def hash(self, key):
+    def _hash(self, key):
         return hash(key) % self.size
 
-    def insert(self, key, value):
-        index = self.hash(key)
+    def put(self, key, value):
+        index = self._hash(key)
         if not self.buckets[index]:
             self.buckets[index] = Node(key, value)
         else:
@@ -27,10 +26,39 @@ class HashMap:
             current.next = Node(key, value)
 
     def get(self, key):
-        idx = self.hash(key)
-        current = self.buckets[idx]
+        index = self._hash(key)
+        current = self.buckets[index]
         while current:
             if current.key == key:
                 return current.value
             current = current.next
         return None
+
+    def remove(self, key):
+        index = self._hash(key)
+        current = self.buckets[index]
+        previous = None
+        while current:
+            if current.key == key:
+                if previous:
+                    previous.next = current.next
+                else:
+                    self.buckets[index] = current.next
+                return
+            previous = current
+            current = current.next
+
+# Example usage:
+hash_map = HashMap(10)
+hash_map.put("key1", "value1")
+hash_map.put("key2", "value2")
+hash_map.put("key3", "value3")
+
+print(hash_map.get("key1"))  # Output: value1
+print(hash_map.get("key2"))  # Output: value2
+
+hash_map.put("key1", "new_value1")  # Update existing key
+print(hash_map.get("key1"))  # Output: new_value1
+
+hash_map.remove("key2")
+print(hash_map.get("key2"))  # Output: None (key2 is removed)
