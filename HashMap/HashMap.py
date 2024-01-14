@@ -34,3 +34,6 @@ class HashMap:
                 return current.value
             current = current.next
         return None
+    
+    
+hashMap = 
