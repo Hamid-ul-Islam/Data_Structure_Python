@@ -17,6 +17,7 @@ class HashMap:
         index = self.hash(key)
         if not self.buckets[index]:
             self.buckets[index] = Node(key, value)
+            return
         else:
             current = self.buckets[index]
             while current.next:
