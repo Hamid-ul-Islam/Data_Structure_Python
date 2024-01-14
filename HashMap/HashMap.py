@@ -42,3 +42,4 @@ map.insert("BGC", 2)
 
 
 map.get("Hamid")
+map.get("BGC")
