@@ -6,7 +6,7 @@ class MapNode: #Linkedlist node with key and value
         self.value = value
         self.next = None
 
-class HashMap: #
+class HashMap: #a list containing 
     def __init__(self, size):
         self.buckets = [None] * size
         self.bucketSize = size
