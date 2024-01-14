@@ -28,7 +28,8 @@ class HashMap:
     
     def remove(self, key):
         index = self.hash(key)
-        head = se
+        head = self.buckets[index]
+        
     
     def size(self):
         return self.count
