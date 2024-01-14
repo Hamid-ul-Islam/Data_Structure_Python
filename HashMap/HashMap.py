@@ -55,7 +55,7 @@ hash_map.put("facebook", "value2")
 hash_map.put("amazon", "value3")
 
 print(hash_map.get("google"))  # Output: value1
-print(hash_map.get("key2"))  # Output: value2
+print(hash_map.get("facebook"))  # Output: value2
 
 hash_map.put("key1", "new_value1")  # Update existing key
 print(hash_map.get("key1"))  # Output: new_value1
