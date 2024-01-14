@@ -10,7 +10,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
     def __init__(self, size):
         self.buckets = [None] * size
         self.bucketSize = size
-        self.count = 0 #total inserted nodes (needs for maintaining loadFactor of 0.7. if  count/bucketSize >= 0.7 then we have to rehash means )
+        self.count = 0 #total inserted nodes (needs for maintaining loadFactor of 0.7. if  count/bucketSize >= 0.7 then we have to rehash means have to double the size of the )
 
     def hash(self, key): # this returns index within the bucketsize
         return (abs(hash(key)) % self.bucketSize)
