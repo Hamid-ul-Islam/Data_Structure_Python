@@ -1,6 +1,6 @@
 #hashmap node : simply a list where every block contains a LinkedList. when we try to insert a key value pair into the list we module  HashCod(key) % size of the buckets/list and we find a specific index. we try to insert into the index. if any other keys (HashCod(key) % size) returns same index we maintain a linkend list chain
 
-class MapNode: #Linkedlist node with key 
+class MapNode: #Linkedlist node with key and value
     def __init__(self, key, value):
         self.key = key
         self.value = value
