@@ -72,7 +72,7 @@ print(map.get("BGC"))
 map.remove("Hamid")
 
 #try to get after removing
-print(map.get("Hamid")) 
+print(map.get("Hamid")) #returns None
 
 map.insert("Hamid", 19)
 
