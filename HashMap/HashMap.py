@@ -50,7 +50,7 @@ class HashMap:
 
 # Example usage:
 hash_map = HashMap(10) #hashmap of size 10 with all None values
-hash_map.insert("google", "value1")
+hash_map.insert("google", "g")
 hash_map.insert("facebook", "value2")
 hash_map.insert("amazon", "value3")
 
