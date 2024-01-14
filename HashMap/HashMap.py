@@ -25,7 +25,8 @@ class HashMap:
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
-        
+    
+    def size(self)
 
     def get(self, key):
         idx = self.hash(key)
