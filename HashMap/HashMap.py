@@ -22,7 +22,7 @@ class HashMap:
                 head.value = value
                 return
             head = head.next
-        newNode = 
+        newNode = MapNode()
         
 
     def get(self, key):
