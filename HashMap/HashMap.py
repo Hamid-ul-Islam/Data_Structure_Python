@@ -27,7 +27,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
-        head = self.buckets[index]
+        head = self.buckets[index] #head will
     
     def remove(self, key):
         index = self.hash(key)
