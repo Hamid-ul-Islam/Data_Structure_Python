@@ -66,4 +66,4 @@ print(map.get("Hamid"))
 
 map.insert("Hamid", 19)
 
-map.get("Hamid")
+print(map.get("Hamid"))
