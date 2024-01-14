@@ -13,4 +13,4 @@ class Graph:
         self.adjMatrix[v2][v2] = 0
         
     def hasEdge(self):
-        
+        if 
