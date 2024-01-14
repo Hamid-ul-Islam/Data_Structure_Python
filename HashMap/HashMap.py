@@ -1,4 +1,4 @@
-#hashmap node : simply a list where every node contains a 
+#hashmap node : simply a list where every node contains a LinkedList
 class MapNode:
     def __init__(self, key, value):
         self.key = key
