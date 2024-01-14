@@ -66,6 +66,7 @@ map.insert("ab", 60)
 map.insert("abaaa", 99)
 
 map.remove("abaaa")
+map.remove("ab")
 print(map.get("abaaa"))
 
 map.insert("abaaa", 999)
