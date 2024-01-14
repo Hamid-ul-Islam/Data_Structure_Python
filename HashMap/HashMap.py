@@ -22,6 +22,8 @@ class HashMap:
                 head.value = value
                 return
             head = head.next
+        
+        head = 
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
