@@ -37,7 +37,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         while head:
             if head.key == key:
                 if prev is None:
-                    self.buckets[index] = head.next
+                    self.buckets[index] = None
                     self.count -= 1
                 else:
                     prev.next = head.next
