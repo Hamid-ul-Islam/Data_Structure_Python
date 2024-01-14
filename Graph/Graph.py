@@ -4,4 +4,5 @@ class Graph:
         self.vertices = vertices
         self.adjMatrix = [[0] * vertices] * vertices #short form of listcomprehension [[0 for i in range(vertices)] for j in range(vertices)]
         
-    def addEdge()
+    def addEdge(self):
+        
