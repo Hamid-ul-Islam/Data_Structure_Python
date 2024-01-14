@@ -2,7 +2,7 @@
 class Graph:
     def __init__(self, vertices):
         self.vertices = vertices
-        self.adjMatrix = [[0] * vertices ] #short form of listcomprehension [[0 for i in range(vertices)] for j in range(vertices)]
+        self.adjMatrix = [[0] * vertices ] * vertices #short form of listcomprehension [[0 for i in range(vertices)] for j in range(vertices)]
         print(self.adjMatrix)
     def addEdge(self, v1, v2):
         self.adjMatrix[v1][v2] = 1
