@@ -23,7 +23,7 @@ class HashMap:
                 return
             head = head.next
         newNode = MapNode(key, value)
-        
+        newNode.
         
 
     def get(self, key):
