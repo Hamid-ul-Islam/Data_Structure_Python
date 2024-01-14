@@ -12,7 +12,7 @@ class HashMap:
     def _hash(self, key):
         return hash(key) % self.size
 
-    def put(self, key, value):
+    def insert(self, key, value):
         index = self._hash(key)
         if not self.buckets[index]:
             self.buckets[index] = Node(key, value)
@@ -50,9 +50,9 @@ class HashMap:
 
 # Example usage:
 hash_map = HashMap(10)
-hash_map.put("google", "value1")
-hash_map.put("facebook", "value2")
-hash_map.put("amazon", "value3")
+hash_map.insert("google", "value1")
+hash_map.insert("facebook", "value2")
+hash_map.insert("amazon", "value3")
 
 print(hash_map.get("google"))  # Output: value1
 print(hash_map.get("facebook"))  # Output: value2
