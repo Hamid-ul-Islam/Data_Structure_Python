@@ -16,3 +16,5 @@ class Graph:
         
     def hasEdge(self, v1, v2):
         return self.adjMatrix[v1][v2] > 0
+    
+    
