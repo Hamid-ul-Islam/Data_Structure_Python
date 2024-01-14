@@ -65,7 +65,7 @@ map.insert("ab", 60)
 map.insert("abaaa", 99)
 
 map.remove("abaaa")
-map.remove("ab")
+# map.remove("ab")
 
 print("Size = ",map.size())
 
