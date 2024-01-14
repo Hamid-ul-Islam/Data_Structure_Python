@@ -61,4 +61,4 @@ hash_map.insert("amazon", "new_value1")  # Update existing key
 print(hash_map.get("amazon"))  # Output: new_value1
 
 hash_map.remove("amazon")
-print(hash_map.get("key2"))  # Output: None (key2 is removed)
+print(hash_map.get("amazon"))  # Output: None (key2 is removed)
