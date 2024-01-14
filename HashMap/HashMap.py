@@ -51,7 +51,7 @@ class HashMap:
 # Example usage:
 hash_map = HashMap(10)
 hash_map.put("google", "value1")
-hash_map.put("key2", "value2")
+hash_map.put("facebook", "value2")
 hash_map.put("key3", "value3")
 
 print(hash_map.get("key1"))  # Output: value1
