@@ -19,7 +19,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         index = self.hash(key)
         head = self.buckets[index] #first find the head of first entry of the list and try to traverse the linkedlist of it
         while head: #while head is not None
-            if head.key == key:
+            if head.key == key: 
                 head.value = value
                 return
             head = head.next
