@@ -20,7 +20,6 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         head = self.buckets[index] #first find the head of first entry of the list and try to traverse the linkedlist of it
         while head: #while head is not None
             if head.key == key: #if any linkedlist nodes key == given key, we simply have to update the value
-                
                 head.value = value
                 return
             head = head.next
