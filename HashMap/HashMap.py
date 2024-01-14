@@ -6,7 +6,7 @@ class MapNode: #Linkedlist node with key and value
         self.value = value
         self.next = None
 
-class HashMap: #a list containing a linkedlist in each blocks (initialiezed with 0)
+class HashMap: #a list containing a linkedlist in each blocks (initialiezed with None first)
     def __init__(self, size):
         self.buckets = [None] * size
         self.bucketSize = size
