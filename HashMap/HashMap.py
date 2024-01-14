@@ -71,6 +71,7 @@ print(map.get("BGC"))
 #removing element
 map.remove("Hamid")
 
+
 print(map.get("Hamid"))
 
 map.insert("Hamid", 19)
