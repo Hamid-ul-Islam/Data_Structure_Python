@@ -23,7 +23,8 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
                 head.value = value
                 return
             head = head.next #else head will point to next node and search all the nodes by while loop
-        #else
+        
+        #else create
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
