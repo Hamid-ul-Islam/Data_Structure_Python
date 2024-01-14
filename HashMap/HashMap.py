@@ -68,7 +68,7 @@ map = HashMap(10)
 map.insert("ab", 60)
 map.insert("abaaa", 99)
 
-
+map.get("")
 
 #inserting
 map.insert("Hamid", 19)
