@@ -65,7 +65,6 @@ map = HashMap(10)
 map.insert("ab", 60)
 map.insert("abaaa", 99)
 
-print(map.get("abaaa"))
 map.remove("abaaa")
 print(map.get("abaaa"))
 
