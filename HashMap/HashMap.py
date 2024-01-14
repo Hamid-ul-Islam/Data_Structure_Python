@@ -53,8 +53,10 @@ class HashMap:
             current = current.next
         return None
     
-    
+
 map = HashMap(10)
+
+#inserting
 map.insert("Hamid", 19)
 map.insert("BGC", 2)
 
