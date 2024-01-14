@@ -27,7 +27,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
         #else create a new node and assign it to particular index
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
-        self.count += 1 #total nodes count 
+        self.count += 1 #total nodes count in increase by +1 in the 
         head = self.buckets[index] #head will traversed to None by doing head.next so we have reassign head to the first node of the list
     
     def remove(self, key):
