@@ -58,7 +58,10 @@ map = HashMap(10)
 map.insert("Hamid", 19)
 map.insert("BGC", 2)
 
+
 print(map.get("Hamid"))
+print(map.get("Hamid"))
+
 map.insert("BGC", 10) #update BGC value with 10
 
 map.remove("Hamid")
