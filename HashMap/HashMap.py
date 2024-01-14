@@ -58,7 +58,7 @@ print(hash_map.get("google"))  # Output: gl
 print(hash_map.get("facebook"))  # Output: fb
 
 hash_map.insert("amazon", "new_value1")  # Update existing key
-print(hash_map.get("key1"))  # Output: new_value1
+print(hash_map.get("amazon"))  # Output: new_value1
 
-hash_map.remove("key2")
+hash_map.remove("amazon")
 print(hash_map.get("key2"))  # Output: None (key2 is removed)
