@@ -30,7 +30,8 @@ class HashMap:
         index = self.hash(key)
         head = self.buckets[index]
         while head:
-            if he
+            if head.key == key:
+                
     
     def size(self):
         return self.count
