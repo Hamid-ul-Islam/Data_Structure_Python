@@ -16,6 +16,7 @@ class HashMap:
 
     def insert(self, key, value):
         index = self.hash(key)
+        head = self.
         
 
     def get(self, key):
