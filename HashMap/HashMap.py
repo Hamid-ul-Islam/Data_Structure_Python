@@ -1,4 +1,4 @@
-#hashmap node : simply a list where every block contains a LinkedList. when we try to insert a key value pair into the list we module  key%size of the buckets
+#hashmap node : simply a list where every block contains a LinkedList. when we try to insert a key value pair into the list we module  key%size of the buckets/list and we find the 
 class MapNode:
     def __init__(self, key, value):
         self.key = key
