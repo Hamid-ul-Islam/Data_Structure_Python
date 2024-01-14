@@ -18,3 +18,4 @@ class Graph:
         return self.adjMatrix[v1][v2] > 0
     
     
+g = Graph(5)
