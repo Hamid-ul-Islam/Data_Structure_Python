@@ -23,7 +23,7 @@ class HashMap:
                 return
             head = head.next
         
-        head = 
+        head = self.buckets[index]
         newNode = MapNode(key, value)
         self.buckets[index] = newNode
         self.count += 1
