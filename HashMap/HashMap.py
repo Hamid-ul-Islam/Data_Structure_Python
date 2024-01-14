@@ -68,6 +68,8 @@ map = HashMap(10)
 map.insert("ab", 60)
 map.insert("abaaa", 99)
 
+
+
 #inserting
 map.insert("Hamid", 19)
 map.insert("BGC", 2)
