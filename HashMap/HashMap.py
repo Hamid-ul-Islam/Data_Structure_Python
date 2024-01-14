@@ -12,7 +12,7 @@ class HashMap:
         self.count = 0
 
     def hash(self, key):
-        return abs(hash(key)) % self.size
+        return (abs(hash(key)) % self.size)
 
     def insert(self, key, value):
         index = self.hash(key)
