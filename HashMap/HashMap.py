@@ -27,7 +27,7 @@ class HashMap:
         self.count += 1
     
     def size(self):
-        print(self.count)
+        return self.count
 
     def get(self, key):
         idx = self.hash(key)
