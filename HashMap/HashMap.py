@@ -22,7 +22,7 @@ class HashMap: #a list containing a linkedlist in each blocks (initialiezed with
             if head.key == key: #if any linkedlist nodes.key == givenKey, we simply have to update the value
                 head.value = value
                 return
-            head = head.next #else head will point to next
+            head = head.next #else head will point to next node
         
         head = self.buckets[index]
         newNode = MapNode(key, value)
