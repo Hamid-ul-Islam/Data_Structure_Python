@@ -1,5 +1,5 @@
 def fibonacci(n):
-    fib = [0] * (n + 1)  # array to store Fibonacci numbers
+    fib = [0] * (n + 1)  # array filled with 0 to store Fibonacci numbers
     fib[1] = 1           # Set the base case f(1) = 1 and f(0) is already 0 by initialization
 
     for i in range(2, n + 1):
