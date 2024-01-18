@@ -27,10 +27,6 @@ def fibonacci(n):
     return fib[n] #returning nth fibonacci number from the array
 
 # Example usage
-n = 30
-obj = ComplexityCalculator
-result, time_taken = obj.measure_time(fibonacci(30))
-print(f"Result: {result}, Time: {time_taken} seconds")
 
 result = fibonacci(n) # ans 3
 print(f"The {n}th Fibonacci number is: {result}")
