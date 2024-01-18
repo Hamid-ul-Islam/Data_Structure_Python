@@ -18,6 +18,7 @@ selected_color = (255, 0, 0)  # Default selected color
 drawing = False
 last_pos = None
 line_width = 2
+palette_visible = False  # Initialize palette visibility
 
 # Function to check if a point is inside a rectangle
 def is_point_inside_rect(point, rect):
