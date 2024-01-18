@@ -8,6 +8,6 @@ def fibonacci(n):
     return fib[n] #returning nth fibonacci number from the array
 
 # Example usage
-n = 7
+n = 1
 result = fibonacci(n)
 print(f"The {n}th Fibonacci number is: {result}")
