@@ -16,7 +16,7 @@ white = (255, 255, 255)
 # Set up drawing variables
 drawing = False
 last_pos = None
-line_color = black
+line_color = red
 line_width = 2
 
 # Main loop
