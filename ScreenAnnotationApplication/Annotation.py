@@ -48,18 +48,10 @@ while True:
                 last_pos = event.pos
             elif event.button == 3:  # Right mouse button
                 # Show color palette
-                palette_visible = True
+                palette_visible = not palette_visible
         elif event.type == pygame.MOUSEBUTTONUP:
             drawing = False
             last_pos = None
-            # Get the color under the mouse cursor in the palette
-            mouse_pos = pygame.mouse.get_pos()
-            palette_color = get_palette_color(mouse_pos)
-            # Update selected color if a color in the palette is clicked
-            if palette_color is not None:
-                selected_color = palette_color
-                palette_visible = False  # Hide the palette
-
         elif event.type == pygame.MOUSEMOTION and drawing:
             current_pos = event.pos
             pygame.draw.line(screen, selected_color, last_pos, current_pos, line_width)
