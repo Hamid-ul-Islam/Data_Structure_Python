@@ -11,7 +11,7 @@ pygame.display.set_caption("Screen Annotation App")
 
 # Set up colors
 black = (0, 0, 0)
-white = (255, 255, 255)
+white = (255, 255, 255) 
 
 # Set up drawing variables
 drawing = False
