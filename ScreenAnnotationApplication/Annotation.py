@@ -17,7 +17,7 @@ white = (255, 255, 255)
 drawing = False
 last_pos = None
 line_color = white
-line_width = 2
+line_width = 5
 
 # Main loop
 while True:
