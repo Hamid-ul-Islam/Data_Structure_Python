@@ -19,9 +19,13 @@ drawing = False
 last_pos = None
 line_width = 2
 
-def draw_color_selection():
-    # Draw color selection box
-    pygame.draw.rect(screen, selected_color, (width - 30, 10, 20, 20))
+def draw_color_palette():
+    # Draw a basic color palette
+    palette_size = 20
+    for i in range(6):
+        for j in range(4):
+            color = (i * 40, j * 60, 255 - i * 40)
+            pygame.draw.rect(screen, color, (width - palette_size * (i + 1), palette_size * j, palette_size, palette_size))
 
 # Main loop
 while True:
@@ -34,8 +38,9 @@ while True:
                 drawing = True
                 last_pos = event.pos
             elif event.button == 3:  # Right mouse button
-                # Show color selection box
-                selected_color = pygame.draw.color_palette("Choose Color", selected_color)
+                # Show color palette
+                draw_color_palette()
+                pygame.display.flip()
 
         elif event.type == pygame.MOUSEBUTTONUP:
             drawing = False
@@ -46,6 +51,7 @@ while True:
             last_pos = current_pos
 
     screen.fill(white)  # Clear the screen
-    draw_color_selection()  # Draw color selection box
+    if not drawing:
+        draw_color_palette()  # Draw color palette
 
     pygame.display.flip()
