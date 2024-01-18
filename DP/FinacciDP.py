@@ -9,5 +9,5 @@ def fibonacci(n):
 
 # Example usage
 n = 4
-result = fibonacci(n)
+result = fibonacci(n) # ans 3
 print(f"The {n}th Fibonacci number is: {result}")
