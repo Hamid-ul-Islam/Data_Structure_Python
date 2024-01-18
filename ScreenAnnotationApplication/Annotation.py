@@ -72,3 +72,7 @@ while True:
         for i in range(6):
             for j in range(4):
                 color = (i * 40, j * 60, 255 - i * 40)
+                rect = (width - 20 - 20 * i, 20 * j, 20, 20)
+                pygame.draw.rect(screen, color, rect)
+
+    pygame.display.flip()
