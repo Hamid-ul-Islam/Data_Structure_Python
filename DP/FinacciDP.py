@@ -5,7 +5,7 @@ def fibonacci(n):
     for i in range(2, n + 1):
         fib[i] = fib[i - 1] + fib[i - 2]  # recurrence relation to calculate Fibonacci numbers
 
-    return fib[n] 
+    return fib[n] #returning nth fibonacci number
 
 # Example usage
 n = 10
