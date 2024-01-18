@@ -23,3 +23,4 @@ def fib(n: int):
         return result_matrix[0][0]
 
 
+print(fib(10))
