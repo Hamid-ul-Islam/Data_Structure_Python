@@ -1,5 +1,5 @@
 def fibonacci(n):
-    fib = [0] * (n + 1)  # array to store Fibonacci numbers
+    fib = [0] * (n + 1)  # array to store Fibonacci numbers 
     fib[1] = 1           # Set the base case F(1) = 1
 
     for i in range(2, n + 1):
