@@ -1,3 +1,18 @@
+import pygame
+import sys
+
+# Initialize Pygame
+pygame.init()
+
+# Set up display
+width, height = 800, 600
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Screen Annotation App")
+
+# Set up colors
+black = (0, 0, 0)
+white = (255, 255, 255)
+
 # Set up drawing variables
 drawing = False
 last_pos = None
@@ -11,10 +26,10 @@ while True:
             pygame.quit()
             sys.exit()
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            drawing = True  # Activate drawing
+            drawing = True
             last_pos = event.pos
         elif event.type == pygame.MOUSEBUTTONUP:
-            drawing = False  # Deactivate drawing
+            drawing = False
             last_pos = None
         elif event.type == pygame.MOUSEMOTION and drawing:
             current_pos = event.pos
