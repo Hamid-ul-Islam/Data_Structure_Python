@@ -1,4 +1,4 @@
-from ComplexityAnalyser.Analyser.
+from ComplexityAnalyser.Analyser import 
 
 def fibonacci(n):
     fib = [0] * (n + 1)  # array filled with 0 to store Fibonacci numbers
