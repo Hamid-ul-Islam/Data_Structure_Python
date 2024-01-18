@@ -3,7 +3,7 @@ def fibonacci(n):
     fib[1] = 1           # Set the base case f(1) = 1 and f(0) is already 0 by initialization
 
     for i in range(2, n + 1):
-        fib[i] = fib[i - 1] + fib[i - 2]  # Use the recurrence relation to calculate Fibonacci numbers
+        fib[i] = fib[i - 1] + fib[i - 2]  # recurrence relation to calculate Fibonacci numbers
 
     return fib[n]
 
