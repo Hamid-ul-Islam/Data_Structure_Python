@@ -12,8 +12,8 @@ def fibonacci(n):
 # Example usage
 n = 30
 
-result, time_taken = ComplexityCalculator.measure_time(fibonacci(30))
-print(f"Result: {result}, Time: {time_taken} seconds")
+# result, time_taken = ComplexityCalculator.measure_time(fibonacci(30))
+# print(f"Result: {result}, Time: {time_taken} seconds")
 
 result = fibonacci(n) # ans 3
 print(f"The {n}th Fibonacci number is: {result}")
