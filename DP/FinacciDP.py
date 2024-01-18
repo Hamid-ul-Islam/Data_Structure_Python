@@ -13,6 +13,7 @@ def fibonacci(n):
 n = 30
 
 ComplexityCalculator.measure_time(fibonacci(30))
+print(f"Result: {result}, Time: {time_taken} seconds")
 
 result = fibonacci(n) # ans 3
 print(f"The {n}th Fibonacci number is: {result}")
