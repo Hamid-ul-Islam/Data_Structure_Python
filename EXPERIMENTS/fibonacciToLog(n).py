@@ -21,3 +21,5 @@ def fib(n: int):
         result_matrix = matrix_power(base_matrix, n - 1)
 
         return result_matrix[0][0]
+
+
