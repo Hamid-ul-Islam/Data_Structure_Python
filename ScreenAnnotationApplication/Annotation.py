@@ -11,13 +11,13 @@ pygame.display.set_caption("Screen Annotation App")
 
 # Set up colors
 black = (0, 0, 0)
-white = (255, 255, 255) 
+white = (255, 255, 255)
 
 # Set up drawing variables
 drawing = False
 last_pos = None
 line_color = white
-line_width = 5
+line_width = 2
 
 # Main loop
 while True:
