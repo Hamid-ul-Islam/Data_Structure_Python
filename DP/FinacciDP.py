@@ -12,7 +12,7 @@ def fibonacci(n):
 # Example usage
 n = 30
 
-ComplexityCalculator.measure_time(f)
+ComplexityCalculator.measure_time(fibonacci(30))
 
 result = fibonacci(n) # ans 3
 print(f"The {n}th Fibonacci number is: {result}")
