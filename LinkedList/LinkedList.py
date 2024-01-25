@@ -39,4 +39,4 @@ def takeInput():
             head = newNode
             tail = newNode
         else:
-            tail
+            tail.next = newNode
