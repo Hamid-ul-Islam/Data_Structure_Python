@@ -4,4 +4,4 @@ class Node:
         self.data = data
         self.next = None
         self.head = None
-        self.
+        self.tail = None
