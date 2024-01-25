@@ -5,3 +5,4 @@ class Node:
         self.next = None
         self.head = None
         self.tail = None
+        
