@@ -16,6 +16,6 @@ def printLL(head):
         print(head.data, end="->")
         head = head.next
         if head is None:
-            print
+            print("None")
 
 printLL(n1)
