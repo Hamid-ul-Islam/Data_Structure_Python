@@ -4,7 +4,7 @@ class Node:
         self.data = data
         self.next = None
 
-        
+#basic node
 n1 = Node(5)
 n2 = Node(6)
 n3 = Node(7)
