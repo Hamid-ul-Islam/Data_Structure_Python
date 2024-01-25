@@ -4,4 +4,5 @@ class Node:
         self.data = data
         self.next = None
         
-n1 = Node()
+n1 = Node(5)
+n2 = Node()
