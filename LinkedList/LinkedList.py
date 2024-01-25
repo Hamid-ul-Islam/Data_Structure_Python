@@ -16,4 +16,4 @@ def printLL(head):
         print(head.data)
         head = head.next
 
-print(n1)
+printLL(n1)
