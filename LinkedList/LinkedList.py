@@ -31,5 +31,7 @@ def takeInput():
     inputList = [int(ele) for ele in input().split()]
     
     for currData in inputList:
+        if currData == -1:
+            r
         if head is None:
             head = 
