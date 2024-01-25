@@ -38,4 +38,5 @@ def takeInput():
         if head is None:
             head = newNode
             tail = newNode
-        else
+        else:
+            tail
