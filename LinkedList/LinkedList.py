@@ -10,3 +10,6 @@ n3 = Node(7)
 
 n1.next = n2
 n2.next = n3
+
+
+def print()
