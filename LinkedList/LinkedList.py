@@ -40,3 +40,4 @@ def takeInput():
             tail = newNode
         else:
             tail.next = newNode
+            tail = newNode
