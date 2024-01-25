@@ -34,5 +34,6 @@ def takeInput():
         if currData == -1:
             break
         
+        newNode = Node(currData)
         if head is None:
-            head = 
+            head = newNode
