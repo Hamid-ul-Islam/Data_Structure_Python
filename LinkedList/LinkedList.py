@@ -4,12 +4,12 @@ class Node:
         self.data = data
         self.next = None
 
-#basic node
+#basic nodes
 n1 = Node(5)
 n2 = Node(6)
 n3 = Node(7)
 
-#
+#linking nodes
 n1.next = n2
 n2.next = n3
 
