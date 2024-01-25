@@ -26,4 +26,4 @@ printLL(n1)
 
 #taking input for linkedlist
 def takeInput():
-    
+    inputList = [int(ele) for ]
