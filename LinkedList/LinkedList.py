@@ -37,3 +37,4 @@ def takeInput():
         newNode = Node(currData)
         if head is None:
             head = newNode
+        else
