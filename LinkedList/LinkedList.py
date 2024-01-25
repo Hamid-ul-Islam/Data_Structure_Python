@@ -13,7 +13,7 @@ n2.next = n3
 
 def printLL(head):
     while head is not None:
-        print(head.data, end="->")
+        print(head.data, end=" -> ")
         head = head.next
         if head is None:
             print("None")
