@@ -27,5 +27,6 @@ printLL(n1)
 #taking input for linkedlist
 def takeInput():
     head = None
+    tail = None
     inputList = [int(ele) for ele in input().split()]
     
