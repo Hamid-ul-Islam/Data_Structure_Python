@@ -30,3 +30,4 @@ def takeInput():
     tail = None
     inputList = [int(ele) for ele in input().split()]
     
+    for currD
