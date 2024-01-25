@@ -13,4 +13,5 @@ n2.next = n3
 
 
 def printLL(head):
-    while head
+    while head is not None:
+        
