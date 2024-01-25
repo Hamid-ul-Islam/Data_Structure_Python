@@ -32,4 +32,4 @@ def takeInput():
     
     for currData in inputList:
         if head is None:
-            
+            head = 
