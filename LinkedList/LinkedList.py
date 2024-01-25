@@ -33,5 +33,6 @@ def takeInput():
     for currData in inputList:
         if currData == -1:
             break
+        
         if head is None:
             head = 
