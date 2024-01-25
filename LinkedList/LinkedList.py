@@ -9,3 +9,4 @@ n2 = Node(6)
 n3 = Node(7)
 
 n1.next = n2
+n2.next = n3
