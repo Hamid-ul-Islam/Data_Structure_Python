@@ -10,7 +10,6 @@ n3 = Node(7)
 
 n1.next = n2
 n2.next = n3
-print(n1.data)
 
 def printLL(head):
     while head is not None:
