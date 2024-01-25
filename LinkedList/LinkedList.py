@@ -39,5 +39,5 @@ def takeInput():
             head = newNode
             tail = newNode
         else:
-            tail.next = newNode #as head and tail was previously same, so tail.next means head.next
+            tail.next = newNode #as head and tail was previously same, so tail.next means head.next. by doing tail.next
             tail = newNode
